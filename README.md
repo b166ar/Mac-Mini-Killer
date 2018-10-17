@@ -134,9 +134,9 @@ Everything: WiFi, BT, LAN, Audio, iMessage, Wake & Sleep, Universal Clipboard, U
 ## What Doesn't Work
 * PowerNap is turned off, so no apps update during sleep. Maybe it works, I just not tested it.
 * If I enable XMP profile in BIOS for automatic RAM overclock or overclock RAM manually, I have a warning «Disk not ejected properly». after waking from sleep. You need to reconnect external drives to make it work again. It can be critical for people who use external drives on a daily basis. There is three solution for that: 
-- Prevent sleep with free Amphetamine app. I like it because it let monitor fall asleep and/or enable screensaver. It’s crucial if you want your Hackintosh to lock automatically. 
-- Disable XMP. Fixes the problem entirely, but harms general performance. 
-- Use [Jettison app](https://www.stclairsoft.com/Jettison/) that unmount drives before sleep. I don’t test it personally. 
+  - Prevent sleep with free Amphetamine app. I like it because it let monitor fall asleep and/or enable screensaver. It’s crucial if you want your Hackintosh to lock automatically. 
+  - Disable XMP. Fixes the problem entirely, but harms general performance. 
+  - Use [Jettison app](https://www.stclairsoft.com/Jettison/) that unmount drives before sleep. I don’t test it personally. 
 
 
 ## Next Steps
