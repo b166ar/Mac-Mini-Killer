@@ -48,3 +48,5 @@ Actually, Hackintosh can boot even with default BIOS setting. But I made some ad
 - Set macOS UEFI partition first boot option. 
 
 Fast boot, Vt-d and other options that usually recommended to disable not affect my system. 
+
+
