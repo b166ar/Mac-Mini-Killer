@@ -409,27 +409,6 @@
 		<true/>
 		<key>KernelXCPM</key>
 		<false/>
-		<key>KextsToPatch</key>
-		<array>
-			<dict>
-				<key>Comment</key>
-				<string>External Drives as Internal to fix Orange Icons</string>
-				<key>Disabled</key>
-				<false/>
-				<key>Find</key>
-				<data>
-				RXh0ZXJuYWw=
-				</data>
-				<key>InfoPlistPatch</key>
-				<false/>
-				<key>Name</key>
-				<string>AppleAHCIPort</string>
-				<key>Replace</key>
-				<data>
-				SW50ZXJuYWw=
-				</data>
-			</dict>
-		</array>
 	</dict>
 	<key>RtVariables</key>
 	<dict>
@@ -455,7 +434,7 @@
 		<key>BoardManufacturer</key>
 		<string>Apple Inc.</string>
 		<key>BoardSerialNumber</key>
-		<string>C02718403CDFF4JJC</string>
+		<string>C02738802GUDNJK1M</string>
 		<key>BoardType</key>
 		<integer>10</integer>
 		<key>BoardVersion</key>
@@ -483,9 +462,9 @@
 		<key>ProductName</key>
 		<string>iMac18,3</string>
 		<key>SerialNumber</key>
-		<string>C02TN4Y3J1GJ</string>
+		<string>C02VF9ZSJ1GJ</string>
 		<key>SmUUID</key>
-		<string>98DD6C4D-7040-4021-8884-667B2359EE59</string>
+		<string>2AD896E5-AEFF-4493-909E-726AF5086FB3</string>
 		<key>Version</key>
 		<string>1.0</string>
 	</dict>
