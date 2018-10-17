@@ -108,6 +108,21 @@ Sleep and wake work with darkwake=2. Here is my actual pmset info:
 
 ![](https://d.pr/i/5YypxK+)
 
+To see your pmset parametrs:
+
+`pmset -g`
+
+To disable any parametr:
+
+`sudo parametr_name 0`
+
+
+If you want to restore defoult parametrs, go to:
+
+`/Library/Preferences`
+
+and delete all the com.apple.PowerManagement.* files. 
+
 ## USB
 [I followed Rehabman's directions to create an SSDT](https://www.tonymacx86.com/threads/guide-creating-a-custom-ssdt-for-usbinjectall-kext.211311/) to inject only the USB ports on the motherboard. You can find it in ACPI → patched folder. If you use a front panel USB or connect anything to internal USB-port on the motherboard, you should make your own custom SSDT. Mine SSDT is only for back panel USBs.
 
