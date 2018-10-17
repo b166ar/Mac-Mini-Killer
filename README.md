@@ -1,6 +1,8 @@
 # Mac-Mini-Killer
 Hackintosh setup based on i7-8700 | Gigabyte Z370N | RX560/HD630 | 16GB RAM
 
+![](https://d.pr/i/PXKYnD+) 
+
 ## About this guide 
 
 This is a beginner guide to make a Hackintosh based on GIGABYTE Z370N WIFI motherboard. It focused on post-install setup. If you don't know how to make a bootable macOS Mojave flash drive and install the macOS Mojave, google it. There is a lot of detail instruction on YouTube. 
