@@ -146,5 +146,7 @@ I think to change my MSI RX560 Aero with Saphire RX570 ITX. This is the most pow
 *Files updated 15.10.18:*
 
 EFI Folder — https://d.pr/f/i4o0pu
+
 Kexts you need to copy to /Library/Extensions/ — https://d.pr/f/YQ45ue
+
 BIOS settings (VCore=1.125V) — https://d.pr/f/RF8D87​
