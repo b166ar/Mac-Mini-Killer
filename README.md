@@ -115,7 +115,8 @@ USB 3.0 and USB-C works perfectly without any port limit patches in Clover.
 
 ## Clover Boot options
 I have 3 internal drives: System, Clone and Windows. Clover boot screen is a bit messy because of that. So I made FileVault compatible Custom boot entries to have only 3 icons. Other boot options are Hide. I can access them with F3 button.
-![](https://d.pr/i/zgAhpG+)
+
+![](https://d.pr/i/34EKQy+)
 
 You should reconfigure this Custom boot entries all just remove all of them.
 ![](https://d.pr/i/NwKyCB+)
