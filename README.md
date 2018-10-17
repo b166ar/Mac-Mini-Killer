@@ -36,4 +36,4 @@ Great low profile cooler that fits my SFF case.
 Before that, I've tried BCM943602BAED and BCM94352Z. Both of this cards require some kexts to work in macOS, and they will not let your BT keyboard work in BIOS and Clover.
 
 [Flex 4.5L case and SeaSonic 300W 80+ Gold PSU](https://smallformfactor.net/forum/threads/custom_mod-sx-mid-6-8l.1786/)
-This is the custom made SFF case that comes with moded server PSU.
+This is the custom made SFF case that comes with moded server PSU. 
