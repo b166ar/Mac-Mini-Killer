@@ -132,9 +132,8 @@ The result is excellent: 34–37°C in idle and 66–69°C in the Blender Benchm
 Everything: WiFi, BT, LAN, Audio, iMessage, Wake & Sleep, Universal Clipboard, USB 3, USB-C, DP-audio, Hands-off, AirDrop, Hardware Acceleration, Shutdown, Unlock with Apple Watch, you name it. 
 
 ## What Doesn't Work
-What doesn’t work
-- PowerNap is turned off, so no apps update during sleep. Maybe it works, I just not tested it.
-- If I enable XMP profile in BIOS for automatic RAM overclock or overclock RAM manually, I have a warning «Disk not ejected properly». after waking from sleep. You need to reconnect external drives to make it work again. It can be critical for people who use external drives on a daily basis. There is three solution for that: 
+* PowerNap is turned off, so no apps update during sleep. Maybe it works, I just not tested it.
+* If I enable XMP profile in BIOS for automatic RAM overclock or overclock RAM manually, I have a warning «Disk not ejected properly». after waking from sleep. You need to reconnect external drives to make it work again. It can be critical for people who use external drives on a daily basis. There is three solution for that: 
 - Prevent sleep with free Amphetamine app. I like it because it let monitor fall asleep and/or enable screensaver. It’s crucial if you want your Hackintosh to lock automatically. 
 - Disable XMP. Fixes the problem entirely, but harms general performance. 
 - Use [Jettison app](https://www.stclairsoft.com/Jettison/) that unmount drives before sleep. I don’t test it personally. 
