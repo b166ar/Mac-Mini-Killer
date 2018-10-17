@@ -65,10 +65,12 @@ config.plist → System Parameters → Inject Kexts = **Detect**.
 config.plist → RT Variables → CsrActiveConfig = **0x01** (enable unsigned kexts).
 
 Don't copy kext with Finder, use terminal:
-[code]sudo cp -R KextToInstall.kext /Library/Extensions[/code]
+
+`sudo cp -R KextToInstall.kext /Library/Extensions`
 
 and then:
-[code]sudo kextcache -i /[/code]
+
+`sudo kextcache -i /`
 
 Otherwise, they will not be injected properly.
 
