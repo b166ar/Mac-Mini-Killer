@@ -114,7 +114,7 @@ To see your pmset parametrs:
 
 To disable any parametr:
 
-`sudo parametr_name 0`
+`sudo pmset parametr_name 0`
 
 
 If you want to restore defoult parametrs, go to:
