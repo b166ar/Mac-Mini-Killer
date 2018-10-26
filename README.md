@@ -140,7 +140,7 @@ Also, my system automatically boots to macOS. If you want the same behaviour, yo
 ![](https://d.pr/i/0L6Tsm+)
 
 ##  Thermals
-CPU is delidded and undervolted to 1.35V. I used [3D printed tool](https://www.youmagine.com/designs/intel-kaby-lake-delid-tool) and [Thermal Grizzly liquid metal](https://amzn.to/2CNpmx5). 
+CPU is delidded and undervolted to 1.135V. I used [3D printed tool](https://www.youmagine.com/designs/intel-kaby-lake-delid-tool) and [Thermal Grizzly liquid metal](https://amzn.to/2CNpmx5). 
 
 The result is excellent: 34–37°C in idle and 66–69°C in the Blender Benchmark or Prime95 (24°C ambient). Before it easily hit 90+°C with my cooler. 
 
