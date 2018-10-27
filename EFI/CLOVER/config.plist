@@ -156,6 +156,8 @@
 				<key>PluginType</key>
 				<true/>
 			</dict>
+			<key>UseSystemIO</key>
+			<true/>
 		</dict>
 	</dict>
 	<key>Boot</key>
