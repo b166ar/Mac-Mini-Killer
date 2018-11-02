@@ -45,7 +45,7 @@ Actually, Hackintosh can boot even with default BIOS setting. But I made some ad
 
 - Disabled Wake on LAN;
 - Manually overclocked RAM to 3600 MHz (16-19-19-38, DRAM Voltage 1.4V);
-- Undervolt CPU: VCore=1,35V;
+- Undervolt CPU: VCore=1,135V;
 - Disable motherboard RGB;
 - Set macOS UEFI partition first boot option. 
 
