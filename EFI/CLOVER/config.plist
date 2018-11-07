@@ -156,8 +156,6 @@
 				<key>PluginType</key>
 				<true/>
 			</dict>
-			<key>UseSystemIO</key>
-			<true/>
 		</dict>
 	</dict>
 	<key>Boot</key>
@@ -417,7 +415,7 @@
 		<key>BooterConfig</key>
 		<string>0x28</string>
 		<key>CsrActiveConfig</key>
-		<string>0x01</string>
+		<string>0x67</string>
 		<key>MLB</key>
 		<string>C02032109R5DC771H</string>
 		<key>ROM</key>
