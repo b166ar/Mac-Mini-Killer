@@ -167,7 +167,7 @@
 		<key>DefaultLoader</key>
 		<string>boot.efi</string>
 		<key>DefaultVolume</key>
-		<string>2ADB417F78361A4F99CF3111C26C6D08</string>
+		<string>7F41DB2A-3678-4F1A-99CF-3111C26C6D08</string>
 		<key>Legacy</key>
 		<string>PBR</string>
 		<key>Secure</key>
