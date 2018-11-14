@@ -119,11 +119,17 @@ To disable any parametr:
 To match my config you need to:
 
 `sudo pmset standby 0`
+
 `sudo pmset womp 0`
+
 `sudo pmset proximitywake 0`
+
 `sudo pmset powernap 0`
+
 `sudo pmset disksleep 0`
+
 `sudo pmset sleep 10`
+
 `sudo pmset autopoweroff 0`
 
 
