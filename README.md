@@ -116,6 +116,17 @@ To disable any parametr:
 
 `sudo pmset parametr_name 0`
 
+To match my config you need to:
+
+`sudo pmset standby 0
+sudo pmset womp 0
+sudo pmset proximitywake 0
+sudo pmset powernap 0
+sudo pmset disksleep 0
+sudo pmset sleep 10
+sudo pmset autopoweroff 0`
+
+
 
 If you want to restore defoult parametrs, go to:
 
