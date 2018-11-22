@@ -44,8 +44,8 @@ This is the custom made SFF case that comes with moded server PSU.
 Actually, Hackintosh can boot even with default BIOS setting. But I made some additional changes: 
 
 - Disabled Wake on LAN;
-- Manually overclocked RAM to 3600 MHz (16-19-19-38, DRAM Voltage 1.4V);
-- Undervolt CPU: VCore=1,135V;
+- Manually overclocked RAM to 3600 MHz (16-19-19-38, DRAM Voltage 1.3V);
+- Undervolt CPU: VCore=1,125V;
 - Disable motherboard RGB;
 - Set macOS UEFI partition first boot option. 
 
@@ -84,7 +84,7 @@ MSI RX560 Aero working great with WhateverGreen.kext. iGPU for hardware accelera
 If you want to run my build with iGPU only, you need to make some changes in config.plist:
 
 * Set BIOS → Peripherals → Initial Display Output = *iGFX*;
-* Change SMBIOS from iMac 18.3 to *18.1* (this iMac don't have eGPU too);
+* Change SMBIOS from iMac 18.3 to *Mac mini 8* (new Mac mini has 8Gen CPU and don't have eGPU too);
 * Set config.plist → Graphics → ig-platform-id = *0x59120000*.
 
 Another settings in config.plist and kexts should be the same.
