@@ -171,3 +171,11 @@ Everything: WiFi, BT, LAN, Audio, iMessage, Wake & Sleep, Universal Clipboard, U
   - Prevent sleep with free [Amphetamine app](https://itunes.apple.com/us/app/amphetamine/id937984704?mt=12). I like it because it let monitor fall asleep and/or enable screensaver. It’s crucial if you want your Hackintosh to lock automatically. 
   - Disable XMP. Fixes the problem entirely, but harms general performance. 
   - Use [Jettison app](https://www.stclairsoft.com/Jettison/) that unmount drives before sleep. I don’t test it personally. 
+  
+## Donations
+
+If my configuration helped you to set up and run Hackintosh, feel free to support my work.
+
+It is not necessary, but always welcome.
+
+Paypal — akh420@nyu.edu 
