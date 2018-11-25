@@ -83,9 +83,14 @@ MSI RX560 Aero working great with WhateverGreen.kext. iGPU for hardware accelera
 ## iGPU settings for HD630
 If you want to run my build with iGPU only, you need to make some changes in config.plist:
 
-* Set BIOS → Peripherals → Initial Display Output = *iGFX*;
 * Change SMBIOS from iMac 18.3 to *Mac mini 8* (new Mac mini has 8Gen CPU and don't have eGPU too);
 * Set config.plist → Graphics → ig-platform-id = *0x59120000*.
+
+And in BIOS:
+
+* Peripherals ▸ Initial Display Output = iGFX;
+* Сhipset ▸ DVMT Pre-Allocated = 128MB;
+* Сhipset ▸ DVMT Total Gfx Mem = 128MB;
 
 Another settings in config.plist and kexts should be the same.
 
