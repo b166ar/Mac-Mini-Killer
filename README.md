@@ -40,14 +40,11 @@ Before that, I've tried BCM943602BAED and BCM94352Z. Both of this cards require 
 [Flex 4.5L case and SeaSonic 300W 80+ Gold PSU](https://smallformfactor.net/forum/threads/custom_mod-sx-mid-6-8l.1786/).
 This is the custom made SFF case that comes with moded server PSU. 
 
-## BIOS settings for installation and boot
+## BIOS settings for installation and boot (eGPU)
 Actually, Hackintosh can boot even with default BIOS setting. But I made some additional changes: 
 
-- Disabled Wake on LAN;
-- Manually overclocked RAM to 3600 MHz (16-19-19-38, DRAM Voltage 1.3V);
-- Undervolt CPU: VCore=1,125V;
-- Disable motherboard RGB;
-- Set macOS UEFI partition first boot option. 
+* Peripherals ▸ Initial Display Output = PCIe 1 Slot;
+* Chipset ▸ Wake on LAN Enable = Disabled;
 
 Fast boot, Vt-d and other options that usually recommended to disable not affect my system. 
 
