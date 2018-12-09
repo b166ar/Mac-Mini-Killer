@@ -1,6 +1,6 @@
 
-Clover EFI installer log - Sat Dec  1 21:26:16 EET 2018
-Installer version: v2.4k r4784 EFI bootloader
+Clover EFI installer log - Sun Dec  9 22:04:24 EET 2018
+Installer version: v2.4k r4798 EFI bootloader
 ======================================================
 /dev/disk0 (internal):
    #:                       TYPE NAME                    SIZE       IDENTIFIER
@@ -20,10 +20,10 @@ Installer version: v2.4k r4784 EFI bootloader
    #:                       TYPE NAME                    SIZE       IDENTIFIER
    0:      APFS Container Scheme -                      +249.8 GB   disk2
                                  Physical Store disk0s2
-   1:                APFS Volume Macintosh SSD           131.5 GB   disk2s1
+   1:                APFS Volume Macintosh SSD           205.2 GB   disk2s1
    2:                APFS Volume Preboot                 52.2 MB    disk2s2
-   3:                APFS Volume Recovery                528.7 MB   disk2s3
-   4:                APFS Volume VM                      1.1 GB     disk2s4
+   3:                APFS Volume Recovery                517.0 MB   disk2s3
+   4:                APFS Volume VM                      24.6 KB    disk2s4
 
 /dev/disk3 (internal, physical):
    #:                       TYPE NAME                    SIZE       IDENTIFIER
@@ -35,16 +35,16 @@ Installer version: v2.4k r4784 EFI bootloader
    #:                       TYPE NAME                    SIZE       IDENTIFIER
    0:      APFS Container Scheme -                      +239.8 GB   disk4
                                  Physical Store disk3s2
-   1:                APFS Volume Hack Backup             129.1 GB   disk4s1
+   1:                APFS Volume Hack Backup             203.4 GB   disk4s1
    2:                APFS Volume Preboot                 52.2 MB    disk4s2
-   3:                APFS Volume Recovery                518.2 MB   disk4s3
+   3:                APFS Volume Recovery                520.3 MB   disk4s3
    4:                APFS Volume VM                      20.5 KB    disk4s4
 
 Target volume /Volumes/Macintosh SSD on disk2 is APFS on physical store disk0s2
 ======================================================
 Backing up EFI files
 
-Backing up /Volumes/Macintosh SSD/EFIROOTDIR/EFI folder to /Volumes/Macintosh SSD/EFI-Backups/r4769/2018-12-01-21h26/EFI
+Backing up /Volumes/Macintosh SSD/EFIROOTDIR/EFI folder to /Volumes/Macintosh SSD/EFI-Backups/r4784/2018-12-09-22h04/EFI
 ======================================================
 Installing BootSectors/BootLoader
 
