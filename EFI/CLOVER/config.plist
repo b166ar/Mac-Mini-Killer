@@ -194,7 +194,7 @@
 		<key>FakeID</key>
 		<dict>
 			<key>IntelGFX</key>
-			<string>0x59128086</string>
+			<string>0x3E918086</string>
 		</dict>
 		<key>LANInjection</key>
 		<false/>
@@ -354,6 +354,8 @@
 		</dict>
 		<key>NvidiaSingle</key>
 		<false/>
+		<key>ig-platform-id</key>
+		<string>0x3E9B0007</string>
 	</dict>
 	<key>KernelAndKextPatches</key>
 	<dict>
