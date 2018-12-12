@@ -43,8 +43,8 @@ This is the custom made SFF case that comes with moded server PSU.
 ## BIOS settings for installation and boot (eGPU)
 Actually, Hackintosh can boot even with default BIOS setting. But I made some additional changes: 
 
-* Peripherals ▸ Initial Display Output = *PCIe 1 Slot*
-* Chipset ▸ Wake on LAN Enable = *Disabled*
+* Peripherals ▸ Initial Display Output = **PCIe 1 Slot**
+* Chipset ▸ Wake on LAN Enable = **Disabled**
 
 Fast boot, Vt-d and other options that usually recommended to disable not affect my system. 
 
@@ -80,14 +80,14 @@ MSI RX560 Aero working great with WhateverGreen.kext. iGPU for hardware accelera
 ## iGPU settings for HD630
 If you want to run my build with iGPU only, you need to make some changes in config.plist:
 
-* Change SMBIOS from iMac 18.3 to *Mac mini 8* (new Mac mini has 8Gen CPU and don't have eGPU too);
-* Set config.plist ▸ Graphics ▸ ig-platform-id = *0x3E9B0007* (you can also try 0x3E920003)
+* Change SMBIOS from iMac 18.3 to **Mac mini 8** (new Mac mini has 8Gen CPU and don't have eGPU too)
+* Set config.plist ▸ Graphics ▸ ig-platform-id = **0x3E9B0007** (you can also try 0x3E920003)
 
 And in BIOS:
 
-* Peripherals ▸ Initial Display Output = *iGFX*
-* Сhipset ▸ DVMT Pre-Allocated = *128MB*
-* Сhipset ▸ DVMT Total Gfx Mem = *128MB*
+* Peripherals ▸ Initial Display Output = **iGFX**
+* Сhipset ▸ DVMT Pre-Allocated = *128MB**
+* Сhipset ▸ DVMT Total Gfx Mem = **128MB**
 
 Another settings in config.plist and kexts should be the same.
 
