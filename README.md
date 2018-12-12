@@ -81,7 +81,7 @@ MSI RX560 Aero working great with WhateverGreen.kext. iGPU for hardware accelera
 If you want to run my build with iGPU only, you need to make some changes in config.plist:
 
 * Change SMBIOS from iMac 18.3 to *Mac mini 8* (new Mac mini has 8Gen CPU and don't have eGPU too);
-* Set config.plist → Graphics → ig-platform-id = *0x59120000*.
+* Set config.plist → Graphics → ig-platform-id = *0x3E9B0007* (you can also try 0x3E920003)
 
 And in BIOS:
 
