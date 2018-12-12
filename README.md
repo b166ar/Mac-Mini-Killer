@@ -58,8 +58,8 @@ I moved kexts to /Library/Extensions/, and left in Other only essential kexts th
 
 When you copy kexts to /L/E/, don't forget to:
 
-config.plist → System Parameters → Inject Kexts = **Detect**.
-config.plist → RT Variables → CsrActiveConfig = **0x01** (enable unsigned kexts).
+config.plist ▸ System Parameters ▸ Inject Kexts = **Detect**.
+config.plist ▸ RT Variables ▸ CsrActiveConfig = **0x01** (enable unsigned kexts).
 
 Don't copy kext with Finder, use terminal:
 
@@ -81,7 +81,7 @@ MSI RX560 Aero working great with WhateverGreen.kext. iGPU for hardware accelera
 If you want to run my build with iGPU only, you need to make some changes in config.plist:
 
 * Change SMBIOS from iMac 18.3 to *Mac mini 8* (new Mac mini has 8Gen CPU and don't have eGPU too);
-* Set config.plist → Graphics → ig-platform-id = *0x3E9B0007* (you can also try 0x3E920003)
+* Set config.plist ▸ Graphics ▸ ig-platform-id = *0x3E9B0007* (you can also try 0x3E920003)
 
 And in BIOS:
 
