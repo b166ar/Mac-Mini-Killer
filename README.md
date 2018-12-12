@@ -43,8 +43,8 @@ This is the custom made SFF case that comes with moded server PSU.
 ## BIOS settings for installation and boot (eGPU)
 Actually, Hackintosh can boot even with default BIOS setting. But I made some additional changes: 
 
-* Peripherals ▸ Initial Display Output = PCIe 1 Slot;
-* Chipset ▸ Wake on LAN Enable = Disabled;
+* Peripherals ▸ Initial Display Output = *PCIe 1 Slot*
+* Chipset ▸ Wake on LAN Enable = *Disabled*
 
 Fast boot, Vt-d and other options that usually recommended to disable not affect my system. 
 
@@ -58,7 +58,7 @@ I moved kexts to /Library/Extensions/, and left in Other only essential kexts th
 
 When you copy kexts to /L/E/, don't forget to:
 
-config.plist ▸ System Parameters ▸ Inject Kexts = **Detect**.
+config.plist ▸ System Parameters ▸ Inject Kexts = **Detect**
 config.plist ▸ RT Variables ▸ CsrActiveConfig = **0x01** (enable unsigned kexts).
 
 Don't copy kext with Finder, use terminal:
@@ -85,9 +85,9 @@ If you want to run my build with iGPU only, you need to make some changes in con
 
 And in BIOS:
 
-* Peripherals ▸ Initial Display Output = iGFX;
-* Сhipset ▸ DVMT Pre-Allocated = 128MB;
-* Сhipset ▸ DVMT Total Gfx Mem = 128MB;
+* Peripherals ▸ Initial Display Output = *iGFX*
+* Сhipset ▸ DVMT Pre-Allocated = *128MB*
+* Сhipset ▸ DVMT Total Gfx Mem = *128MB*
 
 Another settings in config.plist and kexts should be the same.
 
