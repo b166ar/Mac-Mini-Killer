@@ -58,8 +58,8 @@ I moved kexts to /Library/Extensions/, and left in Other only essential kexts th
 
 When you copy kexts to /L/E/, don't forget to:
 
-config.plist ▸ System Parameters ▸ Inject Kexts = **Detect**
-config.plist ▸ RT Variables ▸ CsrActiveConfig = **0x01** (enable unsigned kexts).
+* config.plist ▸ System Parameters ▸ Inject Kexts = **Detect**
+* config.plist ▸ RT Variables ▸ CsrActiveConfig = **0x01** (enable unsigned kexts).
 
 Don't copy kext with Finder, use terminal:
 
@@ -86,7 +86,7 @@ If you want to run my build with iGPU only, you need to make some changes in con
 And in BIOS:
 
 * Peripherals ▸ Initial Display Output = **iGFX**
-* Сhipset ▸ DVMT Pre-Allocated = *128MB**
+* Сhipset ▸ DVMT Pre-Allocated = **128MB**
 * Сhipset ▸ DVMT Total Gfx Mem = **128MB**
 
 Another settings in config.plist and kexts should be the same.
