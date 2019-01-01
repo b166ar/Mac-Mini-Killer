@@ -1,5 +1,5 @@
 # Mac-Mini-Killer
-Hackintosh setup based on i7-8700 | Gigabyte Z370N | RX560/HD630 | 16GB RAM
+Hackintosh setup based on i7-8700 | Gigabyte Z370N | RX560 | 16GB RAM
 
 ![](https://d.pr/i/OnCO6C+) 
 
@@ -11,7 +11,7 @@ Current guide optimised for:
 * macOS Mojave 10.14.2
 * F10 BIOS for z370n
 * FileVault 2 encryption
-* AMD RX560/RX570/RX580 or HD630 graphics
+* AMD RX560/RX570/RX580/RX5900 graphics (iGPU only is not supported)
 
 I tried to make this guide as simple as possible. Some parts are still a little bit techy, but I'm going to rewrite them soon. 
 
@@ -63,9 +63,13 @@ When you copy kexts to /L/E/, don't forget to:
 
 Don't copy kext with Finder, use terminal:
 
-`sudo cp -R KextToInstall.kext /Library/Extensions`
 
-and then:
+1. Navigate to downloaded Kexts for L/E folder in Terminal;
+2. Run command to copy kexts from to L/E;
+
+`sudo cp -R *.kext /Library/Extensions`
+
+2. Update kext cache:
 
 `sudo kextcache -i /`
 
@@ -76,20 +80,15 @@ Otherwise, they will not be injected properly.
 ## ePGU settings for AMD RX560/570/580
 MSI RX560 Aero working great with WhateverGreen.kext. iGPU for hardware acceleration working great too. I applied a few patches in config.plist and turned iGPU on in BIOS.
 
+## BIOS settings for Hardware Acceleration with iGPU 
 
-## iGPU settings for HD630
-If you want to run my build with iGPU only, you need to make some changes in config.plist:
-
-* Change SMBIOS from iMac 18.3 to **Mac mini 8** (new Mac mini has 8Gen CPU and don't have eGPU too)
-* Set config.plist ▸ Graphics ▸ ig-platform-id = **0x3E9B0007** (you can also try 0x3E920003)
-
-And in BIOS:
-
-* Peripherals ▸ Initial Display Output = **iGFX**
+* Сhipset ▸ Internal Graphics = **Enabled**
 * Сhipset ▸ DVMT Pre-Allocated = **128MB**
 * Сhipset ▸ DVMT Total Gfx Mem = **128MB**
 
-Another settings in config.plist and kexts should be the same.
+[How to test Hardware Acceleratio](https://www.tonymacx86.com/threads/success-b1s-mac-mini-killer-with-macos-mojave-i7-8700-gigabyte-z370n-rx560-16gb-ram.260337/page-18#post-1837792).
+
+![](https://d.pr/i/4cFoa5+)
 
 ## Sound
 Works great with AppleALC.kext and some necessary tweaks in config.plist.
