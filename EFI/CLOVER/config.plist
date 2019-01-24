@@ -4,28 +4,15 @@
 <dict>
 	<key>ACPI</key>
 	<dict>
-		<key>AutoMerge</key>
-		<false/>
 		<key>DSDT</key>
 		<dict>
-			<key>Debug</key>
-			<false/>
-			<key>DropOEM_DSM</key>
-			<false/>
-			<key>Fixes</key>
-			<dict>
-				<key>FixShutdown</key>
-				<false/>
-			</dict>
-			<key>Name</key>
-			<string>DSDT.aml</string>
 			<key>Patches</key>
 			<array>
 				<dict>
 					<key>Comment</key>
 					<string>Rename HDAS to HDEF</string>
 					<key>Disabled</key>
-					<false/>
+					<true/>
 					<key>Find</key>
 					<data>
 					SERBUw==
@@ -53,7 +40,7 @@
 					<key>Comment</key>
 					<string>change _DSM to XDSM</string>
 					<key>Disabled</key>
-					<false/>
+					<true/>
 					<key>Find</key>
 					<data>
 					X0RTTQ==
@@ -67,7 +54,7 @@
 					<key>Comment</key>
 					<string>change HECI to IMEI</string>
 					<key>Disabled</key>
-					<false/>
+					<true/>
 					<key>Find</key>
 					<data>
 					SEVDSQ==
@@ -81,7 +68,7 @@
 					<key>Comment</key>
 					<string>change GFX0 to IGPU</string>
 					<key>Disabled</key>
-					<false/>
+					<true/>
 					<key>Find</key>
 					<data>
 					R0ZYMA==
@@ -95,7 +82,7 @@
 					<key>Comment</key>
 					<string>change PEGP to GFX0</string>
 					<key>Disabled</key>
-					<false/>
+					<true/>
 					<key>Find</key>
 					<data>
 					UEVHUA==
@@ -134,25 +121,11 @@
 					</data>
 				</dict>
 			</array>
-			<key>ReuseFFFF</key>
-			<false/>
 		</dict>
-		<key>HaltEnabler</key>
-		<true/>
 		<key>SSDT</key>
 		<dict>
-			<key>DropOem</key>
-			<false/>
 			<key>Generate</key>
 			<dict>
-				<key>APLF</key>
-				<false/>
-				<key>APSN</key>
-				<false/>
-				<key>CStates</key>
-				<false/>
-				<key>PStates</key>
-				<false/>
 				<key>PluginType</key>
 				<true/>
 			</dict>
@@ -162,25 +135,16 @@
 	<dict>
 		<key>Arguments</key>
 		<string>darkwake=2</string>
-		<key>Debug</key>
-		<false/>
 		<key>DefaultLoader</key>
 		<string>boot.efi</string>
 		<key>DefaultVolume</key>
 		<string>2ADB417F78361A4F99CF3111C26C6D08</string>
 		<key>Legacy</key>
 		<string>PBR</string>
-		<key>Secure</key>
-		<false/>
 		<key>Timeout</key>
 		<integer>3</integer>
 		<key>XMPDetection</key>
 		<string>Yes</string>
-	</dict>
-	<key>CPU</key>
-	<dict>
-		<key>UseARTFrequency</key>
-		<false/>
 	</dict>
 	<key>Devices</key>
 	<dict>
@@ -194,7 +158,7 @@
 		<key>FakeID</key>
 		<dict>
 			<key>IntelGFX</key>
-			<string>0x3E918086</string>
+			<string>0x3E928086</string>
 		</dict>
 		<key>LANInjection</key>
 		<false/>
@@ -209,8 +173,6 @@
 			<key>Inject</key>
 			<true/>
 		</dict>
-		<key>UseIntelHDMI</key>
-		<false/>
 	</dict>
 	<key>GUI</key>
 	<dict>
@@ -320,8 +282,6 @@
 			<integer>500</integer>
 			<key>Enabled</key>
 			<true/>
-			<key>Mirror</key>
-			<false/>
 			<key>Speed</key>
 			<integer>1</integer>
 		</dict>
@@ -329,50 +289,25 @@
 		<dict>
 			<key>Entries</key>
 			<true/>
-			<key>Legacy</key>
-			<false/>
 			<key>Linux</key>
-			<false/>
-			<key>Tool</key>
 			<false/>
 		</dict>
 		<key>ScreenResolution</key>
-		<string>2560x1600</string>
+		<string>2560x1440</string>
 		<key>Theme</key>
 		<string>Lightness256</string>
 	</dict>
 	<key>Graphics</key>
 	<dict>
-		<key>Inject</key>
-		<dict>
-			<key>ATI</key>
-			<false/>
-			<key>Intel</key>
-			<false/>
-			<key>NVidia</key>
-			<false/>
-		</dict>
-		<key>NvidiaSingle</key>
-		<false/>
 		<key>ig-platform-id</key>
 		<string>0x3E920003</string>
 	</dict>
 	<key>KernelAndKextPatches</key>
 	<dict>
-		<key>AppleIntelCPUPM</key>
-		<false/>
 		<key>AppleRTC</key>
-		<false/>
-		<key>Debug</key>
-		<false/>
-		<key>KernelCpu</key>
-		<false/>
-		<key>KernelLapic</key>
 		<false/>
 		<key>KernelPm</key>
 		<true/>
-		<key>KernelXCPM</key>
-		<false/>
 	</dict>
 	<key>RtVariables</key>
 	<dict>
@@ -388,11 +323,11 @@
 	<key>SMBIOS</key>
 	<dict>
 		<key>BiosReleaseDate</key>
-		<string>06/26/2018</string>
+		<string>09/28/2018</string>
 		<key>BiosVendor</key>
 		<string>Apple Inc.</string>
 		<key>BiosVersion</key>
-		<string>IM183.88Z.0161.B00.1806260901</string>
+		<string>IM183.88Z.F000.B00.1809280842</string>
 		<key>Board-ID</key>
 		<string>Mac-BE088AF8C5EB4FA2</string>
 		<key>BoardManufacturer</key>
@@ -409,6 +344,8 @@
 		<string>Apple Inc.</string>
 		<key>ChassisType</key>
 		<string>0x09</string>
+		<key>EfiVersion</key>
+		<string>166.0.0.0.0</string>
 		<key>Family</key>
 		<string>iMac</string>
 		<key>FirmwareFeatures</key>
@@ -428,7 +365,7 @@
 		<key>SerialNumber</key>
 		<string>C02VF9ZSJ1GJ</string>
 		<key>SmUUID</key>
-		<string>2AD896E5-AEFF-4493-909E-726AF5086FB3</string>
+		<string>CE89B9B6-163F-4678-88BA-CD2C886D5211</string>
 		<key>Version</key>
 		<string>1.0</string>
 	</dict>

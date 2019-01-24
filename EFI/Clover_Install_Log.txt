@@ -1,6 +1,6 @@
 
-Clover EFI installer log - Fri Dec 21 21:49:25 EET 2018
-Installer version: v2.4k r4813 EFI bootloader
+Clover EFI installer log - Thu Jan 24 20:40:18 EET 2019
+Installer version: v2.4k r4861 EFI bootloader
 ======================================================
 /dev/disk0 (internal):
    #:                       TYPE NAME                    SIZE       IDENTIFIER
@@ -20,7 +20,7 @@ Installer version: v2.4k r4813 EFI bootloader
    #:                       TYPE NAME                    SIZE       IDENTIFIER
    0:      APFS Container Scheme -                      +249.8 GB   disk2
                                  Physical Store disk0s2
-   1:                APFS Volume Macintosh SSD           217.1 GB   disk2s1
+   1:                APFS Volume Macintosh SSD           195.3 GB   disk2s1
    2:                APFS Volume Preboot                 52.2 MB    disk2s2
    3:                APFS Volume Recovery                517.0 MB   disk2s3
    4:                APFS Volume VM                      24.6 KB    disk2s4
@@ -35,7 +35,7 @@ Installer version: v2.4k r4813 EFI bootloader
    #:                       TYPE NAME                    SIZE       IDENTIFIER
    0:      APFS Container Scheme -                      +239.8 GB   disk4
                                  Physical Store disk3s2
-   1:                APFS Volume Hack Backup             211.4 GB   disk4s1
+   1:                APFS Volume Hack Backup             178.6 GB   disk4s1
    2:                APFS Volume Preboot                 52.2 MB    disk4s2
    3:                APFS Volume Recovery                520.3 MB   disk4s3
    4:                APFS Volume VM                      20.5 KB    disk4s4
@@ -44,7 +44,7 @@ Target volume /Volumes/Macintosh SSD on disk2 is APFS on physical store disk0s2
 ======================================================
 Backing up EFI files
 
-Backing up /Volumes/Macintosh SSD/EFIROOTDIR/EFI folder to /Volumes/Macintosh SSD/EFI-Backups/r4798/2018-12-21-21h49/EFI
+Backing up /Volumes/Macintosh SSD/EFIROOTDIR/EFI folder to /Volumes/Macintosh SSD/EFI-Backups/r4861/2019-01-24-20h40/EFI
 ======================================================
 Installing BootSectors/BootLoader
 
