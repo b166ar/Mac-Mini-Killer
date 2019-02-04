@@ -141,9 +141,17 @@ If you want to restore defoult parametrs, go to:
 and delete all the com.apple.PowerManagement.* files. 
 
 ## USB
-[I followed Rehabman's directions to create an SSDT](https://www.tonymacx86.com/threads/guide-creating-a-custom-ssdt-for-usbinjectall-kext.211311/) to inject only the USB ports on the motherboard. You can find it in ACPI → patched folder. If you use a front panel USB or connect anything to internal USB-port on the motherboard, you should make your own custom SSDT. Mine SSDT is only for back panel USBs.
 
-USB 3.0 and USB-C works perfectly without any port limit patches in Clover.
+USB ports configured with [Hackintool](https://www.tonymacx86.com/threads/release-hackintool-v1-8-1.254559/). it is a simpler way to configure USB than [RehabMan's custom SSDT](https://www.tonymacx86.com/threads/guide-creating-a-custom-ssdt-for-usbinjectall-kext.211311/). Especially for beginners. 
+
+Hackintool generates two files: USBPorts.kext and SSDT-EC.aml. 
+
+1. USBPorts.kext goes to /Library/Extensions/
+2. SSDT-EC.aml to  /EFI/ACPI/patched/
+
+Be aware, that I made my config only for motherboards USB. It will not work with front USB on your case. If you use a front panel USB or connect anything to internal USB-port on the motherboard, you should make USBPorts.kext and SSDT-EC.aml by ourself. 
+
+This method provides full USB power for my devices. I tried to charge my iPad Pro, and amperemeter shows that iPad now draws 1.6A. Before [it was 500 mAh max](https://www.tonymacx86.com/threads/success-b1s-mac-mini-killer-with-macos-mojave-i7-8700-gigabyte-z370n-rx560-16gb-ram.260337/page-36#post-1868201). No additional kexts and config needed. 
 
 ## Clover Boot options
 I have 3 internal drives: System, Clone and Windows. Clover boot screen is a bit messy because of that. So I made FileVault compatible Custom boot entries to have only 3 icons. Other boot options are Hide. I can access them with F3 button.
