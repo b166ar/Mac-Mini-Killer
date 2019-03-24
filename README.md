@@ -19,19 +19,19 @@ I tried to make this guide as simple as possible. Some parts are still a little 
 If you have troubles during migrating to my EFI and settings, please attach «problem reporting» files to your post. The easiest way is to [install and run this script](https://github.com/corpnewt/EssentialsList). 
 
 ## My Hakintosh components
-[Intel Core i7-8700 non K](https://www.amazon.com/dp/B07598HLB4/?tag=macosworldru-20).
+[Intel Core i7-8700 non K](https://www.amazon.com/dp/B07598HLB4/).
 
-[GIGABYTE Z370N WIFI](https://www.amazon.com/dp/B076VD4XV4/?tag=macosworldru-20).
+[GIGABYTE Z370N WIFI](https://www.amazon.com/dp/B076VD4XV4/).
 
-[G.SKILL 16GB (2 x 8GB) DDR4 3200MHz](https://www.amazon.com/dp/B017RKV4N2/?tag=macosworldru-20).
+[G.SKILL 16GB (2 x 8GB) DDR4 3200MHz](https://www.amazon.com/dp/B017RKV4N2).
 
-[250GB Samsung 970 EVO M.2](https://www.amazon.com/dp/B07BN5FJZQ/?tag=macosworldru-20).
+[250GB Samsung 970 EVO M.2](https://www.amazon.com/dp/B07BN5FJZQ/).
 I'm using two of this disk: one for macOS and one for Windows 10 (gaming).
 
-[250GB SanDisk Ultra II SATA III 2.5-Inch](https://www.amazon.com/dp/B00M8ABEIM/?tag=macosworldru-20).
+[250GB SanDisk Ultra II SATA III 2.5-Inch](https://www.amazon.com/dp/B00M8ABEIM/).
 I'm using this disk for a bootable clone of macOS Mojave.
 
-[Noctua NH-L9I](https://www.amazon.com/gp/product/B009VCAJ7W/?tag=macosworldru-20).
+[Noctua NH-L9I](https://www.amazon.com/gp/product/B009VCAJ7W/).
 Great low profile cooler that fits my SFF case.
 
 [WiFi adapter from MacBook Air (BCM94360CS2)](http://ali.pub/2rzj90).
@@ -180,11 +180,4 @@ Everything: WiFi, BT, LAN, Audio, iMessage, Wake & Sleep, Universal Clipboard, U
   - Prevent sleep with free [Amphetamine app](https://itunes.apple.com/us/app/amphetamine/id937984704?mt=12). I like it because it let monitor fall asleep and/or enable screensaver. It’s crucial if you want your Hackintosh to lock automatically. 
   - Disable XMP. Fixes the problem entirely, but harms general performance. 
   - Use [Jettison app](https://www.stclairsoft.com/Jettison/) that unmount drives before sleep. I don’t test it personally. 
-  
-## Donations
-
-If my configuration helped you to set up and run Hackintosh, feel free to support my work.
-
-It is not necessary, but always welcome.
-
-Paypal — akh420@nyu.edu 
+ 
