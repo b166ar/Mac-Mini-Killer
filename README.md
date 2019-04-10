@@ -12,6 +12,7 @@ Current guide optimised for:
 * F10 BIOS for z370n (F10 works OOB, [for F12 read this post](https://www.tonymacx86.com/threads/success-b1s-mac-mini-killer-with-macos-mojave-i7-8700-gigabyte-z370n-rx560-16gb-ram.260337/post-1934546))
 * FileVault 2 encryption
 * AMD RX560/RX570/RX580/RX5900 graphics (if you are going to use iGPU, [read this thread](https://www.tonymacx86.com/threads/guide-fanless-mini-mojave-i5-8600-gigabyte-z370n-wifi-intel-hd630.263345/))
+
 I tried to make this guide as simple as possible. Some parts are still a little bit techy, but I'm going to rewrite them soon. 
 
 ## How to ask for help
