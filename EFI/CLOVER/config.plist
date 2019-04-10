@@ -20,7 +20,7 @@
 		<key>DefaultLoader</key>
 		<string>boot.efi</string>
 		<key>DefaultVolume</key>
-		<string>2ADB417F78361A4F99CF3111C26C6D08</string>
+		<string>2ADB417F78361A4F99CF3111C26C</string>
 		<key>Legacy</key>
 		<string>PBR</string>
 		<key>Timeout</key>
@@ -44,6 +44,32 @@
 		</dict>
 		<key>LANInjection</key>
 		<false/>
+		<key>Properties</key>
+		<dict>
+			<key>PciRoot(0x0)/Pci(0x2,0x0)</key>
+			<dict>
+				<key>AAPL,ig-platform-id</key>
+				<data>
+				AwCSPg==
+				</data>
+				<key>device-id</key>
+				<data>
+				mz4AAA==
+				</data>
+				<key>enable-hdmi20</key>
+				<data>
+				AQAAAA==
+				</data>
+				<key>framebuffer-patch-enable</key>
+				<data>
+				AQAAAA==
+				</data>
+				<key>framebuffer-unifiedmem</key>
+				<data>
+				AAAAgA==
+				</data>
+			</dict>
+		</dict>
 		<key>USB</key>
 		<dict>
 			<key>AddClockID</key>
@@ -84,77 +110,12 @@
 					<key>VolumeType</key>
 					<string>Internal</string>
 				</dict>
-				<dict>
-					<key>Disabled</key>
-					<false/>
-					<key>FullTitle</key>
-					<string>Hack Backup</string>
-					<key>Hidden</key>
-					<false/>
-					<key>Ignore</key>
-					<false/>
-					<key>InjectKexts</key>
-					<true/>
-					<key>NoCaches</key>
-					<false/>
-					<key>Path</key>
-					<string>\BD5BB8CD-15A2-4BDD-A7D8-40FF79962A70\System\Library\CoreServices\boot.efi</string>
-					<key>Type</key>
-					<string>OSX</string>
-					<key>Volume</key>
-					<string>2BF66522D3C1B74A95EEC582AAC7C1CC</string>
-					<key>VolumeType</key>
-					<string>Internal</string>
-				</dict>
-				<dict>
-					<key>Disabled</key>
-					<false/>
-					<key>FullTitle</key>
-					<string>Hack Backup Install Prebooter</string>
-					<key>Hidden</key>
-					<true/>
-					<key>Ignore</key>
-					<false/>
-					<key>InjectKexts</key>
-					<true/>
-					<key>NoCaches</key>
-					<false/>
-					<key>Path</key>
-					<string>\BD5BB8CD-15A2-4BDD-A7D8-40FF79962A70\com.apple.installer\boot.efi</string>
-					<key>Type</key>
-					<string>OSXInstaller</string>
-					<key>Volume</key>
-					<string>2BF66522D3C1B74A95EEC582AAC7C1CC</string>
-					<key>VolumeType</key>
-					<string>Internal</string>
-				</dict>
-				<dict>
-					<key>Disabled</key>
-					<false/>
-					<key>FullTitle</key>
-					<string>macOS Mojave Install Prebooter</string>
-					<key>Hidden</key>
-					<true/>
-					<key>Ignore</key>
-					<false/>
-					<key>InjectKexts</key>
-					<true/>
-					<key>NoCaches</key>
-					<false/>
-					<key>Path</key>
-					<string>\0323E6B5-9C71-4D22-A2BE-3E0C9F343992\com.apple.installer\boot.efi</string>
-					<key>Type</key>
-					<string>OSXInstaller</string>
-					<key>Volume</key>
-					<string>2ADB417F78361A4F99CF3111C26C6D08</string>
-					<key>VolumeType</key>
-					<string>Internal</string>
-				</dict>
 			</array>
 		</dict>
 		<key>Hide</key>
 		<array>
 			<string>Recovery</string>
+			<string>Preboot</string>
 		</array>
 		<key>Language</key>
 		<string>en:0</string>
@@ -205,17 +166,17 @@
 	<key>SMBIOS</key>
 	<dict>
 		<key>BiosReleaseDate</key>
-		<string>09/28/2018</string>
+		<string>12/19/2018</string>
 		<key>BiosVendor</key>
 		<string>Apple Inc.</string>
 		<key>BiosVersion</key>
-		<string>IM183.88Z.F000.B00.1809280842</string>
+		<string>IM183.88Z.F000.B00.1812191143</string>
 		<key>Board-ID</key>
 		<string>Mac-BE088AF8C5EB4FA2</string>
 		<key>BoardManufacturer</key>
 		<string>Apple Inc.</string>
 		<key>BoardSerialNumber</key>
-		<string>C02738802GUDNJK1M</string>
+		<string>C02841300GUJ0PGAD</string>
 		<key>BoardType</key>
 		<integer>10</integer>
 		<key>BoardVersion</key>
@@ -227,7 +188,7 @@
 		<key>ChassisType</key>
 		<string>0x09</string>
 		<key>EfiVersion</key>
-		<string>166.0.0.0.0</string>
+		<string>167.0.0.0.0</string>
 		<key>Family</key>
 		<string>iMac</string>
 		<key>FirmwareFeatures</key>
