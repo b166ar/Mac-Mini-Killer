@@ -20,7 +20,7 @@
 		<key>DefaultLoader</key>
 		<string>boot.efi</string>
 		<key>DefaultVolume</key>
-		<string>2ADB417F78361A4F99CF3111C26C</string>
+		<string>LastBootedVolume</string>
 		<key>Legacy</key>
 		<string>PBR</string>
 		<key>Timeout</key>
@@ -37,11 +37,6 @@
 			<key>ResetHDA</key>
 			<true/>
 		</dict>
-		<key>FakeID</key>
-		<dict>
-			<key>IntelGFX</key>
-			<string>0x3E928086</string>
-		</dict>
 		<key>LANInjection</key>
 		<false/>
 		<key>Properties</key>
@@ -54,11 +49,7 @@
 				</data>
 				<key>device-id</key>
 				<data>
-				mz4AAA==
-				</data>
-				<key>enable-hdmi20</key>
-				<data>
-				AQAAAA==
+				kj4AAA==
 				</data>
 				<key>framebuffer-patch-enable</key>
 				<data>
@@ -77,7 +68,7 @@
 			<key>FixOwnership</key>
 			<true/>
 			<key>HighCurrent</key>
-			<true/>
+			<false/>
 			<key>Inject</key>
 			<true/>
 		</dict>
@@ -112,11 +103,6 @@
 				</dict>
 			</array>
 		</dict>
-		<key>Hide</key>
-		<array>
-			<string>Recovery</string>
-			<string>Preboot</string>
-		</array>
 		<key>Language</key>
 		<string>en:0</string>
 		<key>Mouse</key>
@@ -142,8 +128,11 @@
 	</dict>
 	<key>Graphics</key>
 	<dict>
-		<key>ig-platform-id</key>
-		<string>0x3E920003</string>
+		<key>Inject</key>
+		<dict>
+			<key>Intel</key>
+			<false/>
+		</dict>
 	</dict>
 	<key>KernelAndKextPatches</key>
 	<dict>
@@ -166,17 +155,17 @@
 	<key>SMBIOS</key>
 	<dict>
 		<key>BiosReleaseDate</key>
-		<string>12/19/2018</string>
+		<string>02/18/2019</string>
 		<key>BiosVendor</key>
 		<string>Apple Inc.</string>
 		<key>BiosVersion</key>
-		<string>IM183.88Z.F000.B00.1812191143</string>
+		<string>IM191.88Z.F000.B00.1902181222</string>
 		<key>Board-ID</key>
-		<string>Mac-BE088AF8C5EB4FA2</string>
+		<string>Mac-AA95B1DDAB278B95</string>
 		<key>BoardManufacturer</key>
 		<string>Apple Inc.</string>
 		<key>BoardSerialNumber</key>
-		<string>C02841300GUJ0PGAD</string>
+		<string>C02942701CDLNV91H</string>
 		<key>BoardType</key>
 		<integer>10</integer>
 		<key>BoardVersion</key>
@@ -188,7 +177,7 @@
 		<key>ChassisType</key>
 		<string>0x09</string>
 		<key>EfiVersion</key>
-		<string>167.0.0.0.0</string>
+		<string>220.250.368.0.0</string>
 		<key>Family</key>
 		<string>iMac</string>
 		<key>FirmwareFeatures</key>
@@ -204,18 +193,18 @@
 		<key>PlatformFeature</key>
 		<string>0x00</string>
 		<key>ProductName</key>
-		<string>iMac18,3</string>
+		<string>iMac19,1</string>
 		<key>SerialNumber</key>
-		<string>C02VF9ZSJ1GJ</string>
+		<string>C02YRWZPJV3Q</string>
 		<key>SmUUID</key>
-		<string>CE89B9B6-163F-4678-88BA-CD2C886D5211</string>
+		<string>69F8C9DA-9F35-4254-B83F-2C5FDF274307</string>
 		<key>Version</key>
 		<string>1.0</string>
 	</dict>
 	<key>SystemParameters</key>
 	<dict>
 		<key>InjectKexts</key>
-		<string>Detect</string>
+		<string>Yes</string>
 		<key>InjectSystemID</key>
 		<true/>
 	</dict>
