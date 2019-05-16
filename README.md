@@ -8,7 +8,7 @@ Hackintosh setup based on i7-8700 | Gigabyte Z370N | RX560 | 16GB RAM
 This is a beginner guide to make a Hackintosh based on GIGABYTE Z370N WIFI motherboard. It focused on post-install setup. If you don't know how to make a bootable macOS Mojave flash drive and install the macOS Mojave, google it. There is a lot of detail instruction on YouTube. 
 
 Current guide optimised for:
-* macOS Mojave 10.14.4
+* macOS Mojave 10.14.5
 * F10 BIOS for z370n (F10 works OOB, [for F12 read this post](https://www.tonymacx86.com/threads/success-b1s-mac-mini-killer-with-macos-mojave-i7-8700-gigabyte-z370n-rx560-16gb-ram.260337/post-1934546))
 * FileVault 2 encryption
 * AMD RX560/RX570/RX580/RX5900 graphics (if you are going to use iGPU, [read this thread](https://www.tonymacx86.com/threads/guide-fanless-mini-mojave-i5-8600-gigabyte-z370n-wifi-intel-hd630.263345/))
@@ -49,7 +49,7 @@ Actually, Hackintosh can boot even with default BIOS setting. But I made some ad
 Fast boot, Vt-d and other options that usually recommended to disable not affect my system. 
 
 ## Config.plist
-I have a few DSDT patches, darkwake=2, tweaks for Power Management and Hardware Acceleration with iGPU. SMBIOS is iMac18,3.
+I have a few DSDT patches, darkwake=2, tweaks for Power Management and Hardware Acceleration with iGPU. SMBIOS is iMac19,1.
 
 I've managed to figure out about all Config.plist settings and I keep them as minimal as possible. The same with drivers64UEFI folder and all efi's.
 
@@ -144,12 +144,12 @@ and delete all the com.apple.PowerManagement.* files.
 
 USB ports configured with [Hackintool](https://www.tonymacx86.com/threads/release-hackintool-v1-8-1.254559/). it is a simpler way to configure USB than [RehabMan's custom SSDT](https://www.tonymacx86.com/threads/guide-creating-a-custom-ssdt-for-usbinjectall-kext.211311/). Especially for beginners. 
 
-Hackintool generates two files: USBPorts.kext and SSDT-EC.aml. 
+Hackintool generates 3 files: SSDT-EC.aml, SSDT-UIAC.aml, SSDT-USBX.aml. 
 
-1. USBPorts.kext goes to /Library/Extensions/
-2. SSDT-EC.aml to  /EFI/ACPI/patched/
+1. USBInjectAll.kext goes to /Library/Extensions/
+2. SSDT-EC.aml, SSDT-UIAC.aml, SSDT-USBX.aml to /EFI/ACPI/patched/
 
-Be aware, that I made my config only for motherboards USB. It will not work with front USB on your case. If you use a front panel USB or connect anything to internal USB-port on the motherboard, you should make USBPorts.kext and SSDT-EC.aml by ourself. 
+Be aware, that I made my config only for motherboards USB. It will not work with front USB on your case. If you use a front panel USB or connect anything to internal USB-port on the motherboard, you should make all files by ourself. You cand find all instruction in Hackintool (USB tab).
 
 This method provides full USB power for my devices. I tried to charge my iPad Pro, and amperemeter shows that iPad now draws 1.6A. Before [it was 500 mAh max](https://www.tonymacx86.com/threads/success-b1s-mac-mini-killer-with-macos-mojave-i7-8700-gigabyte-z370n-rx560-16gb-ram.260337/page-36#post-1868201). No additional kexts and config needed. 
 
