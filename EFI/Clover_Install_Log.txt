@@ -1,6 +1,6 @@
 
-Clover EFI installer log - Tue Apr 16 13:20:59 EEST 2019
-Installer version: v2.4k r4920 EFI bootloader
+Clover EFI installer log - Sat May 25 22:58:03 EEST 2019
+Installer version: v2.4k r4934 EFI bootloader
 ======================================================
 /dev/disk0 (internal):
    #:                       TYPE NAME                    SIZE       IDENTIFIER
@@ -20,46 +20,45 @@ Installer version: v2.4k r4920 EFI bootloader
    #:                       TYPE NAME                    SIZE       IDENTIFIER
    0:      APFS Container Scheme -                      +249.8 GB   disk2
                                  Physical Store disk0s2
-   1:                APFS Volume Macintosh SSD           205.2 GB   disk2s1
+   1:                APFS Volume Macintosh SSD           205.8 GB   disk2s1
    2:                APFS Volume Preboot                 52.3 MB    disk2s2
-   3:                APFS Volume Recovery                517.3 MB   disk2s3
+   3:                APFS Volume Recovery                509.8 MB   disk2s3
    4:                APFS Volume VM                      24.6 KB    disk2s4
 
 /dev/disk3 (internal, physical):
    #:                       TYPE NAME                    SIZE       IDENTIFIER
    0:      GUID_partition_scheme                        *1.0 TB     disk3
    1:                        EFI EFI                     209.7 MB   disk3s1
-   2:                 Apple_APFS Container disk4         250.0 GB   disk3s2
-   3:                 Apple_APFS Container disk5         400.3 GB   disk3s3
-   4:                 Apple_APFS Container disk6         319.7 GB   disk3s4
-   5:           Linux Filesystem                         29.9 GB    disk3s5
+   2:                 Apple_APFS Container disk6         250.0 GB   disk3s2
+   3:                 Apple_APFS Container disk4         400.3 GB   disk3s3
+   4:                 Apple_APFS Container disk5         349.7 GB   disk3s4
 
 /dev/disk4 (synthesized):
    #:                       TYPE NAME                    SIZE       IDENTIFIER
-   0:      APFS Container Scheme -                      +250.0 GB   disk4
-                                 Physical Store disk3s2
-   1:                APFS Volume Clone                   178.6 GB   disk4s1
-   2:                APFS Volume Preboot                 42.1 MB    disk4s2
-   3:                APFS Volume Recovery                537.3 MB   disk4s3
-   4:                APFS Volume VM                      20.5 KB    disk4s4
+   0:      APFS Container Scheme -                      +400.3 GB   disk4
+                                 Physical Store disk3s3
+   1:                APFS Volume Backup                  344.5 GB   disk4s1
 
 /dev/disk5 (synthesized):
    #:                       TYPE NAME                    SIZE       IDENTIFIER
-   0:      APFS Container Scheme -                      +400.3 GB   disk5
-                                 Physical Store disk3s3
-   1:                APFS Volume Backup                  199.6 GB   disk5s1
+   0:      APFS Container Scheme -                      +349.7 GB   disk5
+                                 Physical Store disk3s4
+   1:                APFS Volume Utility Room            91.3 GB    disk5s1
 
 /dev/disk6 (synthesized):
    #:                       TYPE NAME                    SIZE       IDENTIFIER
-   0:      APFS Container Scheme -                      +319.7 GB   disk6
-                                 Physical Store disk3s4
-   1:                APFS Volume Utility Room            63.5 GB    disk6s1
+   0:      APFS Container Scheme -                      +250.0 GB   disk6
+                                 Physical Store disk3s2
+   1:                APFS Volume Clone                   200.3 GB   disk6s1
+   2:                APFS Volume Preboot                 42.1 MB    disk6s2
+   3:                APFS Volume Recovery                510.8 MB   disk6s3
+   4:                APFS Volume VM                      8.6 GB     disk6s4
 
 Target volume /Volumes/Macintosh SSD on disk2 is APFS on physical store disk0s2
 ======================================================
 Backing up EFI files
 
-Backing up /Volumes/Macintosh SSD/EFIROOTDIR/EFI folder to /Volumes/Macintosh SSD/EFI-Backups/r4910/2019-04-16-13h20/EFI
+Backing up /Volumes/Macintosh SSD/EFIROOTDIR/EFI folder to /Volumes/Macintosh SSD/EFI-Backups/r4920/2019-05-25-22h58/EFI
 ======================================================
 Installing BootSectors/BootLoader
 
