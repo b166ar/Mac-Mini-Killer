@@ -148,9 +148,11 @@
 		<key>CsrActiveConfig</key>
 		<string>0x01</string>
 		<key>MLB</key>
-		<string>C02032109R5DC771H</string>
+		<string>C02YJVYJJV3QQWERT</string>
 		<key>ROM</key>
-		<string>UseMacAddr0</string>
+		<data>
+		4NVepYmQ
+		</data>
 	</dict>
 	<key>SMBIOS</key>
 	<dict>
@@ -165,7 +167,7 @@
 		<key>BoardManufacturer</key>
 		<string>Apple Inc.</string>
 		<key>BoardSerialNumber</key>
-		<string>C02942701CDLNV91H</string>
+		<string>C02YJVYJJV3QQWERT</string>
 		<key>BoardType</key>
 		<integer>10</integer>
 		<key>BoardVersion</key>
@@ -195,9 +197,9 @@
 		<key>ProductName</key>
 		<string>iMac19,1</string>
 		<key>SerialNumber</key>
-		<string>C02YRWZPJV3Q</string>
+		<string>C02YJVYJJV3Q</string>
 		<key>SmUUID</key>
-		<string>69F8C9DA-9F35-4254-B83F-2C5FDF274307</string>
+		<string>C29ABCB2-B6B5-4AF5-B834-022979456E54</string>
 		<key>Version</key>
 		<string>1.0</string>
 	</dict>
