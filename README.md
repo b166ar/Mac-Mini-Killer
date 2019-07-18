@@ -53,30 +53,6 @@ I have a few DSDT patches, darkwake=2, tweaks for Power Management and Hardware 
 
 I've managed to figure out about all Config.plist settings and I keep them as minimal as possible. The same with drivers64UEFI folder and all efi's.
 
-## Kexts
-I moved kexts to /Library/Extensions/, and left in Other only essential kexts that I might be needed during recovery mode. You can find all my kexts from /Library/Extensions/ in the attachment below.
-
-When you copy kexts to /L/E/, don't forget to:
-
-* config.plist ▸ System Parameters ▸ Inject Kexts = **Detect**
-* config.plist ▸ RT Variables ▸ CsrActiveConfig = **0x01** (enable unsigned kexts).
-
-Don't copy kext with Finder, use terminal:
-
-
-1. Navigate to downloaded Kexts for L/E folder in Terminal;
-2. Run command to copy kexts from to L/E;
-
-`sudo cp -R *.kext /Library/Extensions`
-
-2. Update kext cache:
-
-`sudo kextcache -i /`
-
-Otherwise, they will not be injected properly.
-
-![](https://d.pr/i/crvJMe+) 
-
 ## ePGU settings for AMD RX560/570/580
 MSI RX560 Aero working great with WhateverGreen.kext. iGPU for hardware acceleration working great too. I applied a few patches in config.plist and turned iGPU on in BIOS.
 
