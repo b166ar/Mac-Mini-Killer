@@ -1,6 +1,6 @@
 
-Clover EFI installer log - Mon Aug  5 22:49:01 EEST 2019
-Installer version: v2.5k r5033 EFI bootloader
+Clover EFI installer log - Tue Aug 13 14:38:31 EEST 2019
+Installer version: v2.5k r5045 EFI bootloader
 ======================================================
 Changes:
 Mount ESP Beta (r5030): use of a new command line called espfinder to find the ESP that belong with the target volume
@@ -31,65 +31,71 @@ A backup is always made to the root of the target volume.
 
 
 ======================================================
-/dev/disk0 (internal, physical):
+/dev/disk0 (internal):
    #:                       TYPE NAME                    SIZE       IDENTIFIER
-   0:      GUID_partition_scheme                        *1.0 TB     disk0
+   0:      GUID_partition_scheme                         250.1 GB   disk0
    1:                        EFI EFI                     209.7 MB   disk0s1
-   2:                 Apple_APFS Container disk4         250.0 GB   disk0s2
-   3:                 Apple_APFS Container disk6         400.3 GB   disk0s3
-   4:                 Apple_APFS Container disk5         349.7 GB   disk0s4
+   2:                 Apple_APFS Container disk3         249.8 GB   disk0s2
 
 /dev/disk1 (internal, physical):
    #:                       TYPE NAME                    SIZE       IDENTIFIER
-   0:      GUID_partition_scheme                        *256.1 GB   disk1
-   1:           Windows Recovery                         523.2 MB   disk1s1
-   2:                        EFI WINDOWS 10              104.9 MB   disk1s2
-   3:         Microsoft Reserved                         16.8 MB    disk1s3
-   4:       Microsoft Basic Data                         255.4 GB   disk1s4
+   0:      GUID_partition_scheme                        *1.0 TB     disk1
+   1:                        EFI EFI                     209.7 MB   disk1s1
+   2:                 Apple_APFS Container disk5         250.0 GB   disk1s2
+   3:                 Apple_APFS Container disk4         400.3 GB   disk1s3
+   4:                 Apple_APFS Container disk6         349.7 GB   disk1s4
 
-/dev/disk2 (internal):
+/dev/disk2 (internal, physical):
    #:                       TYPE NAME                    SIZE       IDENTIFIER
-   0:      GUID_partition_scheme                         250.1 GB   disk2
-   1:                        EFI EFI                     209.7 MB   disk2s1
-   2:                 Apple_APFS Container disk3         249.8 GB   disk2s2
+   0:      GUID_partition_scheme                        *256.1 GB   disk2
+   1:           Windows Recovery                         523.2 MB   disk2s1
+   2:                        EFI WINDOWS 10              104.9 MB   disk2s2
+   3:         Microsoft Reserved                         16.8 MB    disk2s3
+   4:       Microsoft Basic Data                         255.4 GB   disk2s4
 
 /dev/disk3 (synthesized):
    #:                       TYPE NAME                    SIZE       IDENTIFIER
    0:      APFS Container Scheme -                      +249.8 GB   disk3
-                                 Physical Store disk2s2
-   1:                APFS Volume Macintosh SSD           211.8 GB   disk3s1
+                                 Physical Store disk0s2
+   1:                APFS Volume Macintosh SSD           205.6 GB   disk3s1
    2:                APFS Volume Preboot                 54.3 MB    disk3s2
-   3:                APFS Volume Recovery                509.8 MB   disk3s3
-   4:                APFS Volume VM                      24.6 KB    disk3s4
+   3:                APFS Volume Recovery                510.3 MB   disk3s3
+   4:                APFS Volume VM                      2.1 GB     disk3s4
 
 /dev/disk4 (synthesized):
    #:                       TYPE NAME                    SIZE       IDENTIFIER
-   0:      APFS Container Scheme -                      +250.0 GB   disk4
-                                 Physical Store disk0s2
-   1:                APFS Volume Preboot                 42.1 MB    disk4s2
-   2:                APFS Volume Recovery                519.5 MB   disk4s3
-   3:                APFS Volume VM                      20.5 KB    disk4s4
-   4:                APFS Volume Clone                   180.6 GB   disk4s5
+   0:      APFS Container Scheme -                      +400.3 GB   disk4
+                                 Physical Store disk1s3
+   1:                APFS Volume Backup                  215.7 GB   disk4s1
 
 /dev/disk5 (synthesized):
    #:                       TYPE NAME                    SIZE       IDENTIFIER
-   0:      APFS Container Scheme -                      +349.7 GB   disk5
-                                 Physical Store disk0s4
-   1:                APFS Volume Utility Room            103.2 GB   disk5s1
+   0:      APFS Container Scheme -                      +250.0 GB   disk5
+                                 Physical Store disk1s2
+   1:                APFS Volume Clone                   10.4 GB    disk5s1
+   2:                APFS Volume Preboot                 78.4 MB    disk5s2
+   3:                APFS Volume Recovery                528.2 MB   disk5s3
+   4:                APFS Volume VM                      1.1 MB     disk5s4
+   5:                APFS Volume Clone — данные          170.5 GB   disk5s5
 
 /dev/disk6 (synthesized):
    #:                       TYPE NAME                    SIZE       IDENTIFIER
-   0:      APFS Container Scheme -                      +400.3 GB   disk6
-                                 Physical Store disk0s3
-   1:                APFS Volume Backup                  196.3 GB   disk6s1
+   0:      APFS Container Scheme -                      +349.7 GB   disk6
+                                 Physical Store disk1s4
+   1:                APFS Volume Utility Room            103.4 GB   disk6s1
+
+/dev/disk7 (disk image):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      GUID_partition_scheme                        +314.6 MB   disk7
+   1:                  Apple_HFS TeamViewerQS            314.5 MB   disk7s1
 
 using old scripting mode
-Target volume /Volumes/Macintosh SSD on disk3 is APFS on physical store disk2s2
-ESP BSD Name is disk2s1
+Target volume /Volumes/Macintosh SSD on disk3 is APFS on physical store disk0s2
+ESP BSD Name is disk0s1
 ======================================================
 Backing up EFI files
 
-Backing up /Volumes/Macintosh SSD/EFIROOTDIR/EFI folder to /Volumes/Macintosh SSD/EFI-Backups/r5018/2019-08-05-22h49/EFI
+Backing up /Volumes/Macintosh SSD/EFIROOTDIR/EFI folder to /Volumes/Macintosh SSD/EFI-Backups/r5033/2019-08-13-14h38/EFI
 ======================================================
 Installing BootSectors/BootLoader
 
