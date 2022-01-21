@@ -1,15 +1,14 @@
-# Mac-Mini-Killer Catalina
+# Mac-Mini-Killer (Catalina)
 Hackintosh setup based on i7-8700 | Gigabyte Z370N | RX560 | 16GB RAM
 
-![Captura de pantalla 2022-01-21 a las 1 01 59](https://user-images.githubusercontent.com/15344287/150441383-3242b3b1-18eb-4eb6-b177-6ea07c1907fb.png)
-
+![Captura de pantalla 2022-01-21 a las 1 08 49](https://user-images.githubusercontent.com/15344287/150441993-ceb8b019-13a1-46a1-82e8-cbc0d90db69c.png)
 
 ## About this guide 
 
 This is a beginner guide to make a Hackintosh based on GIGABYTE Z370N WIFI motherboard. It focused on post-install setup. If you don't know how to make a bootable macOS Mojave flash drive and install the macOS Mojave, google it. There is a lot of detail instruction on YouTube. 
 
 Current guide optimised for:
-* macOS Catalina 10.15.7
+* macOS Catalina 10.15.7 (Installed from here https://apps.apple.com/us/app/macos-catalina/id1466841314?mt=12)
 * F10 BIOS for z370n (F10 works OOB, [for F12 read this post](https://www.tonymacx86.com/threads/success-b1s-mac-mini-killer-with-macos-mojave-i7-8700-gigabyte-z370n-rx560-16gb-ram.260337/post-1934546))
 * FileVault 2 encryption
 * AMD RX560/RX570/RX580/RX5900 graphics (if you are going to use iGPU, [read this thread](https://www.tonymacx86.com/threads/guide-fanless-mini-mojave-i5-8600-gigabyte-z370n-wifi-intel-hd630.263345/))
