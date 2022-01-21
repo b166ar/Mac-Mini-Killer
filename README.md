@@ -1,14 +1,15 @@
-# Mac-Mini-Killer
+# Mac-Mini-Killer Catalina
 Hackintosh setup based on i7-8700 | Gigabyte Z370N | RX560 | 16GB RAM
 
-![](https://d.pr/i/OnCO6C+) 
+![Captura de pantalla 2022-01-21 a las 1 01 59](https://user-images.githubusercontent.com/15344287/150441383-3242b3b1-18eb-4eb6-b177-6ea07c1907fb.png)
+
 
 ## About this guide 
 
 This is a beginner guide to make a Hackintosh based on GIGABYTE Z370N WIFI motherboard. It focused on post-install setup. If you don't know how to make a bootable macOS Mojave flash drive and install the macOS Mojave, google it. There is a lot of detail instruction on YouTube. 
 
 Current guide optimised for:
-* macOS Mojave 10.14.5
+* macOS Catalina 10.15.7
 * F10 BIOS for z370n (F10 works OOB, [for F12 read this post](https://www.tonymacx86.com/threads/success-b1s-mac-mini-killer-with-macos-mojave-i7-8700-gigabyte-z370n-rx560-16gb-ram.260337/post-1934546))
 * FileVault 2 encryption
 * AMD RX560/RX570/RX580/RX5900 graphics (if you are going to use iGPU, [read this thread](https://www.tonymacx86.com/threads/guide-fanless-mini-mojave-i5-8600-gigabyte-z370n-wifi-intel-hd630.263345/))
@@ -59,7 +60,7 @@ MSI RX560 Aero working great with WhateverGreen.kext. iGPU for hardware accelera
 ## BIOS settings for Hardware Acceleration with iGPU 
 
 * Сhipset ▸ Internal Graphics = **Enabled**
-* Сhipset ▸ DVMT Pre-Allocated = **128MB**
+* Сhipset ▸ DVMT Pre-Allocated = **64MB**
 * Сhipset ▸ DVMT Total Gfx Mem = **128MB**
 
 [How to test Hardware Acceleratio](https://www.tonymacx86.com/threads/success-b1s-mac-mini-killer-with-macos-mojave-i7-8700-gigabyte-z370n-rx560-16gb-ram.260337/page-18#post-1837792).
@@ -83,7 +84,8 @@ UPD: Actually [it should fit the standard case](https://www.tonymacx86.com/threa
 ## Sleep
 Sleep and wake work with darkwake=2. Here is my actual pmset info:
 
-![](https://d.pr/i/5YypxK+)
+![Captura de pantalla 2022-01-21 a las 1 03 55](https://user-images.githubusercontent.com/15344287/150441568-fb838826-03c8-4b51-bf89-300cdea71415.png)
+
 
 To see your pmset parametrs:
 
@@ -132,13 +134,9 @@ This method provides full USB power for my devices. I tried to charge my iPad Pr
 ## Clover Boot options
 I have 3 internal drives: System, Clone and Windows. Clover boot screen is a bit messy because of that. So I made FileVault compatible Custom boot entries to have only 3 icons. Other boot options are Hide. I can access them with F3 button.
 
-![](https://d.pr/i/N095A2+)
-
 You should reconfigure this Custom boot entries all just remove all of them.
-![](https://d.pr/i/NwKyCB+)
 
 Also, my system automatically boots to macOS. If you want the same behaviour, you should change my disk UUID to yours.
-![](https://d.pr/i/0L6Tsm+)
 
 ##  Thermals
 CPU is delidded and undervolted to 1.135V. I used [3D printed tool](https://www.youmagine.com/designs/intel-kaby-lake-delid-tool) and [Thermal Grizzly liquid metal](https://amzn.to/2CNpmx5). 
