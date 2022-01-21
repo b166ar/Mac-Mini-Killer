@@ -77,6 +77,11 @@
 	<dict>
 		<key>Custom</key>
 		<dict>
+			<key>Hide</key>
+			<array>
+				<string>Recovery</string>
+				<string>Preboot</string>
+			</array>
 			<key>Entries</key>
 			<array>
 				<dict>
@@ -112,7 +117,7 @@
 			<key>Enabled</key>
 			<true/>
 			<key>Speed</key>
-			<integer>1</integer>
+			<integer>6</integer>
 		</dict>
 		<key>Scan</key>
 		<dict>
@@ -124,7 +129,7 @@
 		<key>ScreenResolution</key>
 		<string>2560x1440</string>
 		<key>Theme</key>
-		<string>Lightness256</string>
+		<string>MrRobot</string>
 	</dict>
 	<key>Graphics</key>
 	<dict>
@@ -206,7 +211,7 @@
 	<key>SystemParameters</key>
 	<dict>
 		<key>InjectKexts</key>
-		<string>Yes</string>
+		<true/>
 		<key>InjectSystemID</key>
 		<true/>
 	</dict>
