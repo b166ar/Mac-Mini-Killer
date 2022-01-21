@@ -142,12 +142,12 @@ CPU is delidded and undervolted to 1.135V. I used [3D printed tool](https://www.
 
 The result is excellent: 34–37°C in idle and 66–69°C in the Blender Benchmark or Prime95 (24°C ambient). Before it easily hit 90+°C with my cooler. 
 
-![](https://d.pr/i/6Re7Ys+)
 
 ## What Works
 Everything: WiFi, BT, LAN, Audio, iMessage, Wake & Sleep, Universal Clipboard, USB 3, USB-C, DP-audio, Hands-off, AirDrop, Hardware Acceleration, Shutdown, Unlock with Apple Watch, you name it. 
 
 ## What Doesn't Work
+* [SoundflowerBed](https://github.com/mLupine/SoundflowerBed) is needed to regulate sound with function keys in some monitors that play sound through HDMI. Headset not affected.
 * PowerNap is turned off, so no apps update during sleep. Maybe it works, I just not tested it.
 * If I enable XMP profile in BIOS for automatic RAM overclock or overclock RAM manually, I have a warning «Disk not ejected properly». after waking from sleep. You need to reconnect external drives to make it work again. It can be critical for people who use external drives on a daily basis. There is three solution for that: 
   - Prevent sleep with free [Amphetamine app](https://itunes.apple.com/us/app/amphetamine/id937984704?mt=12). I like it because it let monitor fall asleep and/or enable screensaver. It’s crucial if you want your Hackintosh to lock automatically. 
