@@ -26,7 +26,7 @@
 		<key>Timeout</key>
 		<integer>3</integer>
 		<key>XMPDetection</key>
-		<string>Yes</string>
+		<integer>0</integer>
 	</dict>
 	<key>Devices</key>
 	<dict>
@@ -44,21 +44,13 @@
 			<key>PciRoot(0x0)/Pci(0x2,0x0)</key>
 			<dict>
 				<key>AAPL,ig-platform-id</key>
-				<data>
-				AwCSPg==
-				</data>
+				<data>AwCSPg==</data>
 				<key>device-id</key>
-				<data>
-				kj4AAA==
-				</data>
+				<data>kj4AAA==</data>
 				<key>framebuffer-patch-enable</key>
-				<data>
-				AQAAAA==
-				</data>
+				<data>AQAAAA==</data>
 				<key>framebuffer-unifiedmem</key>
-				<data>
-				AAAAgA==
-				</data>
+				<data>AAAAgA==</data>
 			</dict>
 		</dict>
 		<key>USB</key>
@@ -77,43 +69,64 @@
 	<dict>
 		<key>Custom</key>
 		<dict>
-			<key>Hide</key>
-			<array>
-				<string>Recovery</string>
-				<string>Preboot</string>
-			</array>
 			<key>Entries</key>
 			<array>
 				<dict>
+					<key>CustomLogo</key>
+					<false/>
 					<key>Disabled</key>
 					<false/>
 					<key>FullTitle</key>
-					<string>macOS Mojave</string>
+					<string>macOS Catalina</string>
 					<key>Hidden</key>
-					<false/>
-					<key>Ignore</key>
 					<false/>
 					<key>InjectKexts</key>
 					<true/>
 					<key>NoCaches</key>
 					<false/>
 					<key>Path</key>
-					<string>\0323E6B5-9C71-4D22-A2BE-3E0C9F343992\System\Library\CoreServices\boot.efi</string>
+					<string>\B486567E-2DC7-4F02-9ABE-C6468B33D5E6\System\Library\CoreServices\boot.efi</string>
 					<key>Type</key>
 					<string>OSX</string>
 					<key>Volume</key>
-					<string>2ADB417F78361A4F99CF3111C26C6D08</string>
+					<string>B486567E-2DC7-4F02-9ABE-C6468B33D5E6</string>
+					<key>VolumeType</key>
+					<string>Internal</string>
+				</dict>
+				<dict>
+					<key>Disabled</key>
+					<false/>
+					<key>FullTitle</key>
+					<string>macOS Catalina Install</string>
+					<key>Hidden</key>
+					<false/>
+					<key>InjectKexts</key>
+					<true/>
+					<key>NoCaches</key>
+					<false/>
+					<key>Path</key>
+					<string>\690C5BED-B8E8-3578-9A54-B0DCB54A81BE\System\Library\CoreServices\boot.efi</string>
+					<key>Type</key>
+					<string>OSX</string>
+					<key>Volume</key>
+					<string>690C5BED-B8E8-3578-9A54-B0DCB54A81BE</string>
 					<key>VolumeType</key>
 					<string>Internal</string>
 				</dict>
 			</array>
 		</dict>
+		<key>Hide</key>
+		<array>
+			<string>Preboot</string>
+			<string>Recovery</string>
+			<string>Legacy</string>
+			<string>Datos</string>
+			<string>Data</string>
+		</array>
 		<key>Language</key>
 		<string>en:0</string>
 		<key>Mouse</key>
 		<dict>
-			<key>DoubleClick</key>
-			<integer>500</integer>
 			<key>Enabled</key>
 			<true/>
 			<key>Speed</key>
@@ -123,8 +136,6 @@
 		<dict>
 			<key>Entries</key>
 			<true/>
-			<key>Linux</key>
-			<false/>
 		</dict>
 		<key>ScreenResolution</key>
 		<string>2560x1440</string>
@@ -146,6 +157,11 @@
 		<key>KernelPm</key>
 		<true/>
 	</dict>
+	<key>Quirks</key>
+	<dict>
+		<key>ResizeAppleGpuBars</key>
+		<integer>-1</integer>
+	</dict>
 	<key>RtVariables</key>
 	<dict>
 		<key>BooterConfig</key>
@@ -155,9 +171,7 @@
 		<key>MLB</key>
 		<string>C02YJVYJJV3QQWERT</string>
 		<key>ROM</key>
-		<data>
-		4NVepYmQ
-		</data>
+		<data>4NVepYmQ</data>
 	</dict>
 	<key>SMBIOS</key>
 	<dict>
@@ -210,6 +224,8 @@
 	</dict>
 	<key>SystemParameters</key>
 	<dict>
+		<key>CustomUUID</key>
+		<string>D9A9DC46-0001-5714-88C8-7F4EA6AB9FD0</string>
 		<key>InjectKexts</key>
 		<true/>
 		<key>InjectSystemID</key>
