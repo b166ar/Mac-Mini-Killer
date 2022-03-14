@@ -3,8 +3,6 @@ Hackintosh setup based on i7-8700 | Gigabyte Z370N | RX560 | 16GB RAM
 
 ![telegram-cloud-photo-size-4-5870834206593103936-y](https://user-images.githubusercontent.com/15344287/158160136-0979a39c-001b-4e50-bdd8-fefca8da95da.jpg)
 
-![Captura de pantalla 2022-01-21 a las 1 08 49](https://user-images.githubusercontent.com/15344287/150441993-ceb8b019-13a1-46a1-82e8-cbc0d90db69c.png)
-
 ## About this guide 
 
 This is a beginner guide to make a Hackintosh based on GIGABYTE Z370N WIFI motherboard. It focused on post-install setup. If you don't know how to make a bootable macOS Mojave flash drive and install the macOS Mojave, google it. There is a lot of detail instruction on YouTube. 
