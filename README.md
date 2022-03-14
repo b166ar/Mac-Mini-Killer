@@ -1,6 +1,8 @@
 # Mac-Mini-Killer (Catalina)
 Hackintosh setup based on i7-8700 | Gigabyte Z370N | RX560 | 16GB RAM
 
+![telegram-cloud-photo-size-4-5870834206593103935-y](https://user-images.githubusercontent.com/15344287/158159099-d02edb33-6e21-4c9f-baf8-739e13e3db05.jpg)
+
 ![Captura de pantalla 2022-01-21 a las 1 08 49](https://user-images.githubusercontent.com/15344287/150441993-ceb8b019-13a1-46a1-82e8-cbc0d90db69c.png)
 
 ## About this guide 
@@ -37,8 +39,9 @@ Great low profile cooler that fits my SFF case.
 [WiFi adapter from MacBook Air (BCM94360CS2)](http://ali.pub/2rzj90).
 Before that, I've tried BCM943602BAED and BCM94352Z. Both of this cards require some kexts to work in macOS, and they will not let your BT keyboard work in BIOS and Clover.
 
-[Flex 4.5L case and SeaSonic 300W 80+ Gold PSU](https://smallformfactor.net/forum/threads/custom_mod-sx-mid-6-8l.1786/).
-This is the custom made SFF case that comes with moded server PSU. 
+[Mini ITX Small Aluminum Case from AliExpress + PCI-e express cable](https://es.aliexpress.com/item/1005001447085882.html?gatewayAdapt=glo2esp&spm=a2g0o.productlist.0.0.61f053f3bHtRrX&algo_pvid=665ab278-06a7-4b47-b14d-269ead3d401d&algo_exp_id=665ab278-06a7-4b47-b14d-269ead3d401d-0&pdp_ext_f=%7B%22sku_id%22%3A%2212000016141637177%22%7D&pdp_pi=-1%3B86.64%3B-1%3B-1%40salePrice%3BUSD%3Bsearch-mainSearch).
+
+[Server Flex 400W PSU from AliExpress](https://es.aliexpress.com/item/33006830599.html?spm=a2g0o.productlist.0.0.19753195IDGnsV&algo_pvid=dc14efb1-4163-41c3-9a4c-054d4cf90d8d&algo_exp_id=dc14efb1-4163-41c3-9a4c-054d4cf90d8d-1&pdp_ext_f=%7B%22sku_id%22%3A%2267011307264%22%7D&pdp_pi=-1%3B54.63%3B-1%3B-1%40salePrice%3BEUR%3Bsearch-mainSearch) 
 
 ## BIOS settings for installation and boot (eGPU)
 Actually, Hackintosh can boot even with default BIOS setting. But I made some additional changes: 
