@@ -23,6 +23,8 @@ If you have troubles during migrating to my EFI and settings, please attach «pr
 
 [GIGABYTE Z370N WIFI](https://www.amazon.com/dp/B076VD4XV4/).
 
+[ASUS ROG-STRIX-RX560-O4G] (https://www.amazon.es/gp/product/B071SJ61SZ/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1)
+
 [G.SKILL 16GB (2 x 8GB) DDR4 3200MHz](https://www.amazon.com/dp/B017RKV4N2).
 
 [250GB Samsung 970 EVO M.2](https://www.amazon.com/dp/B07BN5FJZQ/).
