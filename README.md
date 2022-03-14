@@ -18,7 +18,7 @@ I tried to make this guide as simple as possible. Some parts are still a little 
 ## How to ask for help
 If you have troubles during migrating to my EFI and settings, please attach «problem reporting» files to your post. The easiest way is to [install and run this script](https://github.com/corpnewt/EssentialsList). 
 
-## My Hakintosh components
+## My Hackintosh components
 [Intel Core i7-8700 non K](https://www.amazon.com/dp/B07598HLB4/).
 
 [GIGABYTE Z370N WIFI](https://www.amazon.com/dp/B076VD4XV4/).
