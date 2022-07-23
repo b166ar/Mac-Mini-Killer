@@ -25,13 +25,10 @@ If you have troubles during migrating to my EFI and settings, please attach «pr
 
 [ASUS ROG-STRIX-RX560-O4G](https://www.amazon.es/gp/product/B071SJ61SZ/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1)
 
-[G.SKILL 16GB (2 x 8GB) DDR4 3200MHz](https://www.amazon.com/dp/B017RKV4N2).
+[G.SKILL F4-3200C16D-16GTZRXSKILL x2](https://www.amazon.es/DDR4-16-GB-3200-CL16-Kit-16-gtzrx-3200-MHz-3200-C16d/dp/B07CYZCW4T/ref=sr_1_1?crid=LNIHKI60J3MS&keywords=G-SKILL+rgb&qid=1658580838&sprefix=g-skill+rgb%2Caps%2C102&sr=8-1).
 
-[250GB Samsung 970 EVO M.2](https://www.amazon.com/dp/B07BN5FJZQ/).
-I'm using two of this disk: one for macOS and one for Windows 10 (gaming).
-
-[250GB SanDisk Ultra II SATA III 2.5-Inch](https://www.amazon.com/dp/B00M8ABEIM/).
-I'm using this disk for a bootable clone of macOS Mojave.
+[Crucial P2 1TB 3D NAND NVMe PCIe M.2 SSD).
+I'm using this disk with a Bootloader partition with Clover and the other partition is the MacOS Catalina OS.
 
 [Noctua NH-L9I](https://www.amazon.com/gp/product/B009VCAJ7W/).
 Great low profile cooler that fits my SFF case.
