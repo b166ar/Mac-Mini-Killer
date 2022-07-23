@@ -27,7 +27,7 @@ If you have troubles during migrating to my EFI and settings, please attach «pr
 
 [G.SKILL F4-3200C16D-16GTZRXSKILL x2](https://www.amazon.es/DDR4-16-GB-3200-CL16-Kit-16-gtzrx-3200-MHz-3200-C16d/dp/B07CYZCW4T/ref=sr_1_1?crid=LNIHKI60J3MS&keywords=G-SKILL+rgb&qid=1658580838&sprefix=g-skill+rgb%2Caps%2C102&sr=8-1).
 
-[Crucial P2 1TB 3D NAND NVMe PCIe M.2 SSD).
+[Crucial P2 1TB 3D NAND NVMe PCIe M.2 SSD](https://www.amazon.com/-/es/Crucial-NAND-NVMe-hasta-2400MB/dp/B089DNM8LR/ref=sr_1_9?__mk_es_US=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=2492832EO5741&keywords=1tb+ssd+m.2&qid=1658580923&sprefix=1+tb+ssd+m.2%2Caps%2C146&sr=8-9).
 I'm using this disk with a Bootloader partition with Clover and the other partition is the MacOS Catalina OS.
 
 [Noctua NH-L9I](https://www.amazon.com/gp/product/B009VCAJ7W/).
