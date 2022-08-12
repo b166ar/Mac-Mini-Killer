@@ -148,7 +148,7 @@ git clone git@github.com:elieserme/hackintosh.git
 ```bash
 setup_var_3 0x5A4 0x00
 ```
-**Please note that hardcoded value is for F14 BIOS version of the Gigabyte z370N WIFI 1.0 motherboard, if you use another BIOS version or another motherboard, [UPGRADE THE BIOS FIRST](https://download.gigabyte.com/FileList/BIOS/mb_bios_z370n-wifi_f14.zip?v=1721a09678605dfe57bab703fbc37e1d):
+**Please note that hardcoded value is for F14 BIOS version of the Gigabyte z370N WIFI 1.0 motherboard**, if you use another BIOS version or another motherboard, [UPGRADE THE BIOS FIRST](https://download.gigabyte.com/FileList/BIOS/mb_bios_z370n-wifi_f14.zip?v=1721a09678605dfe57bab703fbc37e1d):
 
 | Gigabyte Z370N WiFi BIOS | CFG Lock offset |
 | :----------------------: | --------------- |
