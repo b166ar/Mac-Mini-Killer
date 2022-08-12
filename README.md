@@ -16,13 +16,13 @@ Current guide optimised for:
 If you have troubles during migrating to my EFI and settings, please attach «problem reporting» files to your post. The easiest way is to [install and run this script](https://github.com/corpnewt/EssentialsList). 
 
 ## My Hackintosh components
-[Intel Core i7-8700 non K](https://www.amazon.com/dp/B07598HLB4/).
+[Intel Core i7-8700K](https://www.amazon.es/Intel-Core-i7-8700K-Procesador-procesadores/dp/B07598VZR8).
 
 [GIGABYTE Z370N WIFI](https://www.amazon.com/dp/B076VD4XV4/).
 
 [ASUS ROG-STRIX-RX560-O4G](https://www.amazon.es/gp/product/B071SJ61SZ/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1)
 
-[G.SKILL F4-3200C16D-16GTZRXSKILL x2](https://www.amazon.es/DDR4-16-GB-3200-CL16-Kit-16-gtzrx-3200-MHz-3200-C16d/dp/B07CYZCW4T/ref=sr_1_1?crid=LNIHKI60J3MS&keywords=G-SKILL+rgb&qid=1658580838&sprefix=g-skill+rgb%2Caps%2C102&sr=8-1).
+[G.Skill Trident Z Neo - DDR4, 32 GB (2 x 16 GB)](https://www.amazon.es/G-Skill-Tident-32GB-32Gtzn-2x16GB/dp/B07X19HT3S/ref=sr_1_1?crid=3EZG5BU0XMO9D&keywords=G.SKILL+F4-3200C16D-32&qid=1660325283&s=computers&sprefix=g.skill+f4-3200c16d-32%2Ccomputers%2C77&sr=1-1).
 
 [Crucial P2 1TB 3D NAND NVMe PCIe M.2 SSD](https://www.amazon.com/-/es/Crucial-NAND-NVMe-hasta-2400MB/dp/B089DNM8LR/ref=sr_1_9?__mk_es_US=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=2492832EO5741&keywords=1tb+ssd+m.2&qid=1658580923&sprefix=1+tb+ssd+m.2%2Caps%2C146&sr=8-9).
 I'm using this disk with a Bootloader partition with Clover and the other partition is the MacOS Monterey OS.
@@ -35,7 +35,7 @@ Before that, I've tried BCM943602BAED and BCM94352Z. Both of this cards require 
 
 [Mini ITX Small Aluminum Case from AliExpress + PCI-e express cable](https://es.aliexpress.com/item/1005001447085882.html?gatewayAdapt=glo2esp&spm=a2g0o.productlist.0.0.61f053f3bHtRrX&algo_pvid=665ab278-06a7-4b47-b14d-269ead3d401d&algo_exp_id=665ab278-06a7-4b47-b14d-269ead3d401d-0&pdp_ext_f=%7B%22sku_id%22%3A%2212000016141637177%22%7D&pdp_pi=-1%3B86.64%3B-1%3B-1%40salePrice%3BUSD%3Bsearch-mainSearch).
 
-[Server Flex 400W PSU from AliExpress](https://es.aliexpress.com/item/33006830599.html?spm=a2g0o.productlist.0.0.19753195IDGnsV&algo_pvid=dc14efb1-4163-41c3-9a4c-054d4cf90d8d&algo_exp_id=dc14efb1-4163-41c3-9a4c-054d4cf90d8d-1&pdp_ext_f=%7B%22sku_id%22%3A%2267011307264%22%7D&pdp_pi=-1%3B54.63%3B-1%3B-1%40salePrice%3BEUR%3Bsearch-mainSearch) 
+[Server Flex 500W PSU from AliExpress](https://es.aliexpress.com/item/4000502320987.html?spm=a2g0o.order_list.0.0.21ef194dWiYb5q&gatewayAdapt=glo2esp)
 
 ## BIOS settings for installation and boot (eGPU)
 
