@@ -867,19 +867,19 @@
 			<key>SystemMemoryStatus</key>
 			<string>Auto</string>
 			<key>MLB</key>
-			<string>C02YJVYJJV3QQWERT</string>
+			<string>BBBBBBBBBBBBBBBBBB</string>
 			<key>ProcessorType</key>
 			<integer>0</integer>
 			<key>ROM</key>
-			<data>E0D55EAF5662</data>
+			<data>DDDDDDDD</data>
 			<key>SpoofVendor</key>
 			<true/>
 			<key>SystemProductName</key>
-			<string>MacPro7,1</string>
+			<string>iMacPro1,1</string>
 			<key>SystemSerialNumber</key>
-			<string>W86020QPU9B</string>
+			<string>AAAAAAAAAAAA</string>
 			<key>SystemUUID</key>
-			<string>CA60F0FF-35FD-42BC-A9AF-8A2940F7E79</string>
+			<string>CCCCCC-CCCC-CCCC-CCCC-CCCCCCCCCCCC</string>
 		</dict>
 		<key>UpdateDataHub</key>
 		<true/>
