@@ -8,7 +8,7 @@ Hackintosh setup based on i7-8700K | Gigabyte Z370N | RX560 | 32GB RAM
 This is a beginner guide to make a Hackintosh based on GIGABYTE Z370N WIFI motherboard. If you are only interested in installing Monterey on your Hackintosh and you have the same Motherboard, go directly to 
 
 Current guide optimised for:
-* macOS Catalina 12.5 (Installed from here https://apps.apple.com/es/app/macos-monterey/id1576738294?mt=12)
+* macOS Monterey 12.5 (Installed from here https://apps.apple.com/es/app/macos-monterey/id1576738294?mt=12)
 * F14 BIOS for z370n 
 * AMD RX560/RX570/RX580/RX5900 graphics
 
