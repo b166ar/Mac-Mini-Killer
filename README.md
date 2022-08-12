@@ -5,7 +5,7 @@ Hackintosh setup based on i7-8700K | Gigabyte Z370N | RX560 | 32GB RAM
 
 ## About this guide 
 
-This is a beginner guide to make a Hackintosh based on GIGABYTE Z370N WIFI motherboard. If you are only interested in installing Monterey on your Hackintosh and you have the same Motherboard, go directly to 
+This is a beginner guide to make a Hackintosh based on GIGABYTE Z370N WIFI motherboard. If you are only interested in installing Monterey on your Hackintosh and you have the same Motherboard, go directly to [Installation](https://github.com/kn0wm4d/Mac-Mini-Killer/blob/master/README.md#bios-settings-for-installation-and-boot-egpu)
 
 Current guide optimised for:
 * macOS Monterey 12.5 (Installed from here https://apps.apple.com/es/app/macos-monterey/id1576738294?mt=12)
