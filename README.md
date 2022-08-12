@@ -136,7 +136,7 @@ Use [ProperTree](https://github.com/corpnewt/ProperTree) to edit the **`config.p
 ```bash
 sudo /Applications/Install\ macOS\ Monterey.app/Contents/Resources/createinstallmedia --volume /Volumes/USB
 ```
-- Use [git repo](https://github.com/elieserme/hackintosh/) to download the **EFI** folder 
+- Use [git repo](https://github.com/kn0wm4d/Mac-Mini-Killer) to download the **EFI** folder 
 
 ```bash
 git clone git@github.com:elieserme/hackintosh.git
