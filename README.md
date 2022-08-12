@@ -203,7 +203,7 @@ The included **`USBMap.kext`** with USB mapping is for the **Gigabyte z370N WiFi
 
 Keep in mind that **you have to choose what ports to enable**, because **MacOS has a 15 logical ports limit** and each port has 2 logical ports _(one physical port has one USB 2 and one USB 3 personality, and USB Type C has different ports for each side... so **2 logical ports per physical port**)_ and you have to **reserve a port for Bluetooth card**.
 
-![Motherboard](/images/motherboard.png)
+![Motherboard](https://user-images.githubusercontent.com/15344287/184415158-15ba7799-2a8b-42f6-87c9-639766be6fd7.png)
 
 **List of the 15 ports ENABLED**:
 
