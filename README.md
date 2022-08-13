@@ -1,7 +1,9 @@
-# Mac-Mini-Killer (Monterey)
+# Mac-Mini-Killer (Monterey / Ventura)
 Hackintosh setup based on i7-8700K | Gigabyte Z370N | RX560 | 32GB RAM
 
 ![telegram-cloud-photo-size-4-6032617185022687135-y](https://user-images.githubusercontent.com/15344287/184409403-1f5fd9d9-e4ac-4914-b341-7cd3f5ceab81.jpg)
+
+![telegram-cloud-photo-size-4-6035095278073264334-y](https://user-images.githubusercontent.com/15344287/184496650-326dc8a5-49b0-4d89-a10d-e15ddb029339.jpg)
 
 ## About this guide 
 
