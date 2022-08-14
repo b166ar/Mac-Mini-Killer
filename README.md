@@ -141,7 +141,7 @@ sudo /Applications/Install\ macOS\ Monterey.app/Contents/Resources/createinstall
 - Use [git repo](https://github.com/kn0wm4d/Mac-Mini-Killer) to download the **EFI** folder 
 
 ```bash
-git clone git@github.com:elieserme/hackintosh.git
+git clone git@github.com/kn0wm4d/Mac-Mini-Killer.git
 ```
 - Mount the **EFI partition** of the **USB** disk using [Clover Configurator](https://mackie100projects.altervista.org/download-clover-configurator/) and **copy the EFI folder** inside **`/Volumes/EFI`**
 - **Boot** the target machine with **USB** disk you just made.
