@@ -32,6 +32,9 @@ I'm using this disk with a Bootloader partition with Clover and the other partit
 [Noctua NH-L9I](https://www.amazon.com/gp/product/B009VCAJ7W/).
 Great low profile cooler that fits my SFF case.
 
+[Noctua NF-A4x20](https://www.pccomponentes.com/noctua-nf-a4x20-pwm-ventilador-caja-40x20mm).
+The Flex PSU with this fan does not make any noise.
+
 [WiFi adapter from MacBook Air (BCM94360CS2)](http://ali.pub/2rzj90).
 Before that, I've tried BCM943602BAED and BCM94352Z. Both of this cards require some kexts to work in macOS, and they will not let your BT keyboard work in BIOS and Clover.
 
