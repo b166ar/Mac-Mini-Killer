@@ -189,18 +189,27 @@ To see your pmset parametrs:
 pmset -g
 ```
 
-Sometimes after sleep the computer will **wake every few minutes**. Normal Macs do this for several reasons, like other devices near. If you require a deep sleep without random wakeups, use the commands below to **disable this features**:
-```bash
-sudo pmset proximitywake 0
-```
-This is a desktop machine, you may want to **disable hibernation**:
-```bash
-sudo pmset hibernatemode 0
-```
 If you want to **restore the default** factory settings:
 ```bash
 sudo pmset -a restoredefaults
 ```
+
+To match my config you need to:
+
+`sudo pmset standby 0`
+
+`sudo pmset womp 0`
+
+`sudo pmset proximitywake 0`
+
+`sudo pmset powernap 0`
+
+`sudo pmset disksleep 0`
+
+`sudo pmset sleep 10`
+
+`sudo pmset autopoweroff 0`
+
 
 ## USB Ports
 
